@@ -1,0 +1,4628 @@
+fileFormatVersion: 2
+guid: 4d5f5113d1e70491cb0fbbc681029b21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4543231862878394544
+    second: DungeonSetPieces_0
+  - first:
+      213: -7102920398343392238
+    second: DungeonSetPieces_1
+  - first:
+      213: -7047676836991246044
+    second: DungeonSetPieces_2
+  - first:
+      213: -7641277711422434406
+    second: DungeonSetPieces_3
+  - first:
+      213: -2419941612869304650
+    second: DungeonSetPieces_4
+  - first:
+      213: 7096374586258180397
+    second: DungeonSetPieces_5
+  - first:
+      213: -4072191792760466346
+    second: DungeonSetPieces_6
+  - first:
+      213: -2260767517162253891
+    second: DungeonSetPieces_7
+  - first:
+      213: -949551721535387080
+    second: DungeonSetPieces_8
+  - first:
+      213: -7966315002743650648
+    second: DungeonSetPieces_9
+  - first:
+      213: 4532295377584479037
+    second: DungeonSetPieces_10
+  - first:
+      213: -2910121581065356633
+    second: DungeonSetPieces_11
+  - first:
+      213: 5699179536986347848
+    second: DungeonSetPieces_12
+  - first:
+      213: 1339692420826462053
+    second: DungeonSetPieces_13
+  - first:
+      213: -5665620010394066514
+    second: DungeonSetPieces_14
+  - first:
+      213: 6345158158300296406
+    second: DungeonSetPieces_15
+  - first:
+      213: -1218679847089034958
+    second: DungeonSetPieces_16
+  - first:
+      213: -2428063774464901702
+    second: DungeonSetPieces_17
+  - first:
+      213: -4328173495140674673
+    second: DungeonSetPieces_18
+  - first:
+      213: -5819683300644967245
+    second: DungeonSetPieces_19
+  - first:
+      213: -7272795081162102774
+    second: DungeonSetPieces_20
+  - first:
+      213: -8487740341791556163
+    second: DungeonSetPieces_21
+  - first:
+      213: 206685055501325892
+    second: DungeonSetPieces_22
+  - first:
+      213: -2004816481403479553
+    second: DungeonSetPieces_23
+  - first:
+      213: 9185669618115832314
+    second: DungeonSetPieces_24
+  - first:
+      213: 5077470619173935294
+    second: DungeonSetPieces_25
+  - first:
+      213: -7374284975062034032
+    second: DungeonSetPieces_26
+  - first:
+      213: 6639111572758177798
+    second: DungeonSetPieces_27
+  - first:
+      213: -7100827010248446195
+    second: DungeonSetPieces_28
+  - first:
+      213: -1176402403319391678
+    second: DungeonSetPieces_29
+  - first:
+      213: 2581812070476367083
+    second: DungeonSetPieces_30
+  - first:
+      213: 3890972753862323249
+    second: DungeonSetPieces_31
+  - first:
+      213: 2105450412363939577
+    second: DungeonSetPieces_32
+  - first:
+      213: -8859649432425992860
+    second: DungeonSetPieces_33
+  - first:
+      213: 8601875087336719291
+    second: DungeonSetPieces_34
+  - first:
+      213: 1096085830000199565
+    second: DungeonSetPieces_35
+  - first:
+      213: 2459556311120746649
+    second: DungeonSetPieces_36
+  - first:
+      213: -7864107245316661655
+    second: DungeonSetPieces_37
+  - first:
+      213: 7240569838466657850
+    second: DungeonSetPieces_38
+  - first:
+      213: -6669232695695272342
+    second: DungeonSetPieces_39
+  - first:
+      213: -2085554226664722607
+    second: DungeonSetPieces_40
+  - first:
+      213: -9121452844032832865
+    second: DungeonSetPieces_41
+  - first:
+      213: -2601010092540521868
+    second: DungeonSetPieces_42
+  - first:
+      213: 6143735975270439419
+    second: DungeonSetPieces_43
+  - first:
+      213: 2614941440786178927
+    second: DungeonSetPieces_44
+  - first:
+      213: 2284193127565706296
+    second: DungeonSetPieces_45
+  - first:
+      213: 288751667045002437
+    second: DungeonSetPieces_46
+  - first:
+      213: 5512236270010972044
+    second: DungeonSetPieces_47
+  - first:
+      213: 2322441273307727250
+    second: DungeonSetPieces_48
+  - first:
+      213: 3606974194371093493
+    second: DungeonSetPieces_49
+  - first:
+      213: -1737539816570157548
+    second: DungeonSetPieces_50
+  - first:
+      213: -510491160056067972
+    second: DungeonSetPieces_51
+  - first:
+      213: -5889658835329407302
+    second: DungeonSetPieces_52
+  - first:
+      213: -2628316531103061063
+    second: DungeonSetPieces_53
+  - first:
+      213: -8934150322256890061
+    second: DungeonSetPieces_54
+  - first:
+      213: -4101916247027796535
+    second: DungeonSetPieces_55
+  - first:
+      213: 254996052067174070
+    second: DungeonSetPieces_56
+  - first:
+      213: -8487199238765197434
+    second: DungeonSetPieces_57
+  - first:
+      213: 4837922970539584189
+    second: DungeonSetPieces_58
+  - first:
+      213: 3262107643986540167
+    second: DungeonSetPieces_59
+  - first:
+      213: 8865941925355558166
+    second: DungeonSetPieces_60
+  - first:
+      213: 3986167957379003976
+    second: DungeonSetPieces_61
+  - first:
+      213: -1155896087254986778
+    second: DungeonSetPieces_62
+  - first:
+      213: -4205011267801287027
+    second: DungeonSetPieces_63
+  - first:
+      213: 6696514159748772828
+    second: DungeonSetPieces_64
+  - first:
+      213: 9130414642459662687
+    second: DungeonSetPieces_65
+  - first:
+      213: -9128243277124414612
+    second: DungeonSetPieces_66
+  - first:
+      213: 8315147751716788170
+    second: DungeonSetPieces_67
+  - first:
+      213: -7327920710127996403
+    second: DungeonSetPieces_68
+  - first:
+      213: -7874128069984593811
+    second: DungeonSetPieces_69
+  - first:
+      213: 5291879440656831964
+    second: DungeonSetPieces_70
+  - first:
+      213: -6408765145347294304
+    second: DungeonSetPieces_71
+  - first:
+      213: -6258827731843010652
+    second: DungeonSetPieces_72
+  - first:
+      213: 1390760950566366116
+    second: DungeonSetPieces_73
+  - first:
+      213: -1184258066685749779
+    second: DungeonSetPieces_74
+  - first:
+      213: -5628153918486484107
+    second: DungeonSetPieces_75
+  - first:
+      213: 1666580326932766712
+    second: DungeonSetPieces_76
+  - first:
+      213: 3401121285155465233
+    second: DungeonSetPieces_77
+  - first:
+      213: 8651630102473044269
+    second: DungeonSetPieces_78
+  - first:
+      213: -1677813509941166739
+    second: DungeonSetPieces_79
+  - first:
+      213: -7450273188655642241
+    second: DungeonSetPieces_80
+  - first:
+      213: -2520039932796930787
+    second: DungeonSetPieces_81
+  - first:
+      213: 3140239146285175325
+    second: DungeonSetPieces_82
+  - first:
+      213: -1129504331684045235
+    second: DungeonSetPieces_83
+  - first:
+      213: -3732141539110807973
+    second: DungeonSetPieces_84
+  - first:
+      213: 4927788979196031465
+    second: DungeonSetPieces_85
+  - first:
+      213: 3764215917840057450
+    second: DungeonSetPieces_86
+  - first:
+      213: 3271928546763209452
+    second: DungeonSetPieces_87
+  - first:
+      213: -4224268143564605902
+    second: DungeonSetPieces_88
+  - first:
+      213: -992451708302178723
+    second: DungeonSetPieces_89
+  - first:
+      213: 6056407701579122198
+    second: DungeonSetPieces_90
+  - first:
+      213: -8973281562451856315
+    second: DungeonSetPieces_91
+  - first:
+      213: -3877246155023010500
+    second: DungeonSetPieces_92
+  - first:
+      213: -8036703382143256031
+    second: DungeonSetPieces_93
+  - first:
+      213: -37980207876850224
+    second: DungeonSetPieces_94
+  - first:
+      213: -1492189191324468286
+    second: DungeonSetPieces_95
+  - first:
+      213: -866491900797951213
+    second: DungeonSetPieces_96
+  - first:
+      213: 2738464680403541488
+    second: DungeonSetPieces_97
+  - first:
+      213: 1442984826975584757
+    second: DungeonSetPieces_98
+  - first:
+      213: -263933926269166748
+    second: DungeonSetPieces_99
+  - first:
+      213: -8972864692518652948
+    second: DungeonSetPieces_100
+  - first:
+      213: 6000157944996340290
+    second: DungeonSetPieces_101
+  - first:
+      213: 8997495599057625831
+    second: DungeonSetPieces_102
+  - first:
+      213: -657016347095556866
+    second: DungeonSetPieces_103
+  - first:
+      213: 3148165940876063759
+    second: DungeonSetPieces_104
+  - first:
+      213: 8269217953100578650
+    second: DungeonSetPieces_105
+  - first:
+      213: 1403738797095202214
+    second: DungeonSetPieces_106
+  - first:
+      213: -1590979423927845923
+    second: DungeonSetPieces_107
+  - first:
+      213: 3812425834515088708
+    second: DungeonSetPieces_108
+  - first:
+      213: -4026811239943975690
+    second: DungeonSetPieces_109
+  - first:
+      213: 3052599465049696650
+    second: DungeonSetPieces_110
+  - first:
+      213: -7723428000845581517
+    second: DungeonSetPieces_111
+  - first:
+      213: 1832502801104352400
+    second: DungeonSetPieces_112
+  - first:
+      213: 8599198243461732169
+    second: DungeonSetPieces_113
+  - first:
+      213: 1082736268471453043
+    second: DungeonSetPieces_114
+  - first:
+      213: 5388138266172666842
+    second: DungeonSetPieces_115
+  - first:
+      213: -4127267959939139696
+    second: DungeonSetPieces_116
+  - first:
+      213: -7602823096304596067
+    second: DungeonSetPieces_117
+  - first:
+      213: -6782112437810159314
+    second: DungeonSetPieces_118
+  - first:
+      213: -5419803021747266866
+    second: DungeonSetPieces_119
+  - first:
+      213: 5317643961691823633
+    second: DungeonSetPieces_120
+  - first:
+      213: 4244995221333576487
+    second: DungeonSetPieces_121
+  - first:
+      213: 8316045425331683845
+    second: DungeonSetPieces_122
+  - first:
+      213: 1750584100903244217
+    second: DungeonSetPieces_123
+  - first:
+      213: -5963199484133130656
+    second: DungeonSetPieces_124
+  - first:
+      213: -924955459341065221
+    second: DungeonSetPieces_125
+  - first:
+      213: 587824050232604165
+    second: DungeonSetPieces_126
+  - first:
+      213: 6146850807705100067
+    second: DungeonSetPieces_127
+  - first:
+      213: 3442572677991946301
+    second: DungeonSetPieces_128
+  - first:
+      213: -4535645238387904453
+    second: DungeonSetPieces_129
+  - first:
+      213: 4366519510648158872
+    second: DungeonSetPieces_130
+  - first:
+      213: 4001565390818015769
+    second: DungeonSetPieces_131
+  - first:
+      213: -6525476483422429421
+    second: DungeonSetPieces_132
+  - first:
+      213: 7498010496049739111
+    second: DungeonSetPieces_133
+  - first:
+      213: -8495818119298998182
+    second: DungeonSetPieces_134
+  - first:
+      213: 6858934786944094524
+    second: DungeonSetPieces_135
+  - first:
+      213: -2197015948783758482
+    second: DungeonSetPieces_136
+  - first:
+      213: -858724518648435232
+    second: DungeonSetPieces_137
+  - first:
+      213: 1685149412403107144
+    second: DungeonSetPieces_138
+  - first:
+      213: 2066078517601883091
+    second: DungeonSetPieces_139
+  - first:
+      213: 7523433806063530328
+    second: DungeonSetPieces_140
+  - first:
+      213: -5596643603232663394
+    second: DungeonSetPieces_141
+  - first:
+      213: 1103321291005857149
+    second: DungeonSetPieces_142
+  - first:
+      213: 3205135705870416857
+    second: DungeonSetPieces_143
+  - first:
+      213: 4407885526229511771
+    second: DungeonSetPieces_144
+  - first:
+      213: 5932025071851005259
+    second: DungeonSetPieces_145
+  - first:
+      213: 8912145523185848326
+    second: DungeonSetPieces_146
+  - first:
+      213: 2974983873936098286
+    second: DungeonSetPieces_147
+  - first:
+      213: -5884451712453813882
+    second: DungeonSetPieces_148
+  - first:
+      213: 2311329113533204445
+    second: DungeonSetPieces_149
+  - first:
+      213: 4637979855156937330
+    second: DungeonSetPieces_150
+  - first:
+      213: 5734778933833674348
+    second: DungeonSetPieces_151
+  - first:
+      213: 2686626248043019248
+    second: DungeonSetPieces_152
+  - first:
+      213: -612884475614334683
+    second: DungeonSetPieces_153
+  - first:
+      213: -56115340849173399
+    second: DungeonSetPieces_154
+  - first:
+      213: -860475381203275945
+    second: DungeonSetPieces_155
+  - first:
+      213: -7272971536346211286
+    second: DungeonSetPieces_156
+  - first:
+      213: -7210650421650571865
+    second: DungeonSetPieces_157
+  - first:
+      213: 1773411891773744360
+    second: DungeonSetPieces_158
+  - first:
+      213: -259798349243630506
+    second: DungeonSetPieces_159
+  - first:
+      213: -2840098570760341447
+    second: DungeonSetPieces_160
+  - first:
+      213: -9110559798293803380
+    second: DungeonSetPieces_161
+  - first:
+      213: 3053381689412632533
+    second: DungeonSetPieces_162
+  - first:
+      213: -2902591629681513284
+    second: DungeonSetPieces_163
+  - first:
+      213: 6182906550690979620
+    second: DungeonSetPieces_164
+  - first:
+      213: -2626668649547294785
+    second: DungeonSetPieces_165
+  - first:
+      213: 45149469919041642
+    second: DungeonSetPieces_166
+  - first:
+      213: 8289585690123609413
+    second: DungeonSetPieces_167
+  - first:
+      213: -3631955696788147677
+    second: DungeonSetPieces_168
+  - first:
+      213: 6594808999805606039
+    second: DungeonSetPieces_169
+  - first:
+      213: 3901915478259329657
+    second: DungeonSetPieces_170
+  - first:
+      213: 3937827401638611302
+    second: DungeonSetPieces_171
+  - first:
+      213: -3418544719804617744
+    second: DungeonSetPieces_172
+  - first:
+      213: -765332066449485832
+    second: DungeonSetPieces_173
+  - first:
+      213: 4911640472554514653
+    second: DungeonSetPieces_174
+  - first:
+      213: -5471084586545176115
+    second: DungeonSetPieces_175
+  - first:
+      213: -2183233887500563761
+    second: DungeonSetPieces_176
+  - first:
+      213: 8803198991285233001
+    second: DungeonSetPieces_177
+  - first:
+      213: 5258435717989203850
+    second: DungeonSetPieces_178
+  - first:
+      213: -6986088990653527173
+    second: DungeonSetPieces_179
+  - first:
+      213: -4092898226705156616
+    second: DungeonSetPieces_180
+  - first:
+      213: -9108415507175112412
+    second: DungeonSetPieces_181
+  - first:
+      213: -3339331897973668055
+    second: DungeonSetPieces_182
+  - first:
+      213: -3942266457231172168
+    second: DungeonSetPieces_183
+  - first:
+      213: -2883854762422709165
+    second: DungeonSetPieces_184
+  - first:
+      213: -4294904630956028266
+    second: DungeonSetPieces_185
+  - first:
+      213: -5426833805852748070
+    second: DungeonSetPieces_186
+  - first:
+      213: -6772993450341258322
+    second: DungeonSetPieces_187
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DungeonSetPieces_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057a5e811b233f0c0800000000000000
+      internalID: -4543231862878394544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214bdd4d78b5d6d90800000000000000
+      internalID: -7102920398343392238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4216367c14f913e90800000000000000
+      internalID: -7047676836991246044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a935e8c186ab4f590800000000000000
+      internalID: -7641277711422434406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be3dbbace3aa6ed0800000000000000
+      internalID: -2419941612869304650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29470786136b7260800000000000000
+      internalID: 7096374586258180397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654504fc32bac77c0800000000000000
+      internalID: -4072191792760466346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 132
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db15dc3dbe320a0e0800000000000000
+      internalID: -2260767517162253891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ac50e7db382d2f0800000000000000
+      internalID: -949551721535387080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6899c56b6f17190800000000000000
+      internalID: -7966315002743650648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b511ef1a2f5ee30800000000000000
+      internalID: 4532295377584479037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aab66b27db2d97d0800000000000000
+      internalID: -2910121581065356633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8491f35e79d871f40800000000000000
+      internalID: 5699179536986347848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567f4a3a82b879210800000000000000
+      internalID: 1339692420826462053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1ed184e9caf51b0800000000000000
+      internalID: -5665620010394066514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d439251ab78e0850800000000000000
+      internalID: 6345158158300296406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239a45bc221661fe0800000000000000
+      internalID: -1218679847089034958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd760f8cd8cd4ed0800000000000000
+      internalID: -2428063774464901702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8311e7432d3fe3c0800000000000000
+      internalID: -4328173495140674673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_19
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bca8cf3fd45c3fa0800000000000000
+      internalID: -5819683300644967245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08ef171867d11b90800000000000000
+      internalID: -7272795081162102774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_21
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdf2cd012d753a80800000000000000
+      internalID: -8487740341791556163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_22
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 120
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446d98186fa4ed200800000000000000
+      internalID: 206685055501325892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_23
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9d81a38067d24e0800000000000000
+      internalID: -2004816481403479553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af964e399dd0a7f70800000000000000
+      internalID: 9185669618115832314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8585560acc67640800000000000000
+      internalID: 5077470619173935294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_26
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0995de4c2e649a990800000000000000
+      internalID: -7374284975062034032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_27
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608af66ccccd22c50800000000000000
+      internalID: 6639111572758177798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f64aab47bc47d90800000000000000
+      internalID: -7100827010248446195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_29
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a5b3d3f349cafe0800000000000000
+      internalID: -1176402403319391678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be44f89266074d320800000000000000
+      internalID: 2581812070476367083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cefa8ba138ff530800000000000000
+      internalID: 3890972753862323249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fef621beff083d10800000000000000
+      internalID: 2105450412363939577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46de1c918c33c0580800000000000000
+      internalID: -8859649432425992860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3ccf631dfff5770800000000000000
+      internalID: 8601875087336719291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87408c4144163f00800000000000000
+      internalID: 1096085830000199565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9981c650f69122220800000000000000
+      internalID: 2459556311120746649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_37
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e135f40241dd290800000000000000
+      internalID: -7864107245316661655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_38
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e6639e7ebab7460800000000000000
+      internalID: 7240569838466657850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6699a8c2302273a0800000000000000
+      internalID: -6669232695695272342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_40
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fa5d70b7f9e03e0800000000000000
+      internalID: -2085554226664722607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_41
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a42f347f61a6180800000000000000
+      internalID: -9121452844032832865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_42
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4729ae00a1b57ebd0800000000000000
+      internalID: -2601010092540521868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf958cf815fe24550800000000000000
+      internalID: 6143735975270439419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f632286c2632a4420800000000000000
+      internalID: 2614941440786178927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83441fe1c8513bf10800000000000000
+      internalID: 2284193127565706296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce48e7c1ad10400800000000000000
+      internalID: 288751667045002437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c873708bea56f7c40800000000000000
+      internalID: 5512236270010972044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29586338808fa3020800000000000000
+      internalID: 2322441273307727250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_49
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f36d715beb8e0230800000000000000
+      internalID: 3606974194371093493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4160d322eb403e7e0800000000000000
+      internalID: -1737539816570157548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_51
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7881ef9efe5ae8f0800000000000000
+      internalID: -510491160056067972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_52
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab623f77e7ab34ea0800000000000000
+      internalID: -5889658835329407302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bba0565a08568bd0800000000000000
+      internalID: -2628316531103061063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337bfe7fd95830480800000000000000
+      internalID: -8934150322256890061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_55
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5318df7e01317c0800000000000000
+      internalID: -4101916247027796535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_56
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6479eee8de98300800000000000000
+      internalID: 254996052067174070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_57
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6874f6b6249673a80800000000000000
+      internalID: -8487199238765197434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbae6bd2f41c32340800000000000000
+      internalID: 4837922970539584189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_59
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78677ea6e95554d20800000000000000
+      internalID: 3262107643986540167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_60
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6159f0415372a0b70800000000000000
+      internalID: 8865941925355558166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846be9a33a6b15730800000000000000
+      internalID: 3986167957379003976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_62
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef07e102ae65ffe0800000000000000
+      internalID: -1155896087254986778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_63
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d867032f78cc4a5c0800000000000000
+      internalID: -4205011267801287027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3f23d062cceec50800000000000000
+      internalID: 6696514159748772828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_65
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5955d70ebfb5be70800000000000000
+      internalID: 9130414642459662687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d6ab5a17f15180800000000000000
+      internalID: -9128243277124414612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_67
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac797fb13d6556370800000000000000
+      internalID: 8315147751716788170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02b79a60fefd4a90800000000000000
+      internalID: -7327920710127996403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_69
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68d2a04d3a79b290800000000000000
+      internalID: -7874128069984593811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_70
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd51b8e4058807940800000000000000
+      internalID: 5291879440656831964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_71
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab7bae2e0e7f07a0800000000000000
+      internalID: -6408765145347294304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_72
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af222da65d2429a0800000000000000
+      internalID: -6258827731843010652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_73
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab2ef947b9fc4310800000000000000
+      internalID: 1390760950566366116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de51ec4109ba09fe0800000000000000
+      internalID: -1184258066685749779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57be36394d7c4e1b0800000000000000
+      internalID: -5628153918486484107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff5b783af1e02710800000000000000
+      internalID: 1666580326932766712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_77
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11826b7f9c5333f20800000000000000
+      internalID: 3401121285155465233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_78
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d217bf96db3c01870800000000000000
+      internalID: 8651630102473044269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dfa9c808537b8e0800000000000000
+      internalID: -1677813509941166739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_80
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 84
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79409612005b9890800000000000000
+      internalID: -7450273188655642241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15f6d96805070dd0800000000000000
+      internalID: -2520039932796930787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_82
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d129a18adde549b20800000000000000
+      internalID: 3140239146285175325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_83
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e15b17bc13350f0800000000000000
+      internalID: -1129504331684045235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_84
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5612dd3b05c43cc0800000000000000
+      internalID: -3732141539110807973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_85
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e17011d7f5036440800000000000000
+      internalID: 4927788979196031465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_86
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a644ab00f6e2d3430800000000000000
+      internalID: 3764215917840057450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_87
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaf7488da9386d20800000000000000
+      internalID: 3271928546763209452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_88
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23635da21826065c0800000000000000
+      internalID: -4224268143564605902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d564be5fd6a1a32f0800000000000000
+      internalID: -992451708302178723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_90
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616409367beac0450800000000000000
+      internalID: 6056407701579122198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_91
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544be7026ff787380800000000000000
+      internalID: -8973281562451856315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_92
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35ba1f1a21413ac0800000000000000
+      internalID: -3877246155023010500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_93
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12abb2eaad4e77090800000000000000
+      internalID: -8036703382143256031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_94
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd3101c331197ff0800000000000000
+      internalID: -37980207876850224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_95
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7d6126ddaa4be0800000000000000
+      internalID: -1492189191324468286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_96
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3136f24053a99f3f0800000000000000
+      internalID: -866491900797951213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_97
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd18692e1bf00620800000000000000
+      internalID: 2738464680403541488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_98
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 72
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1882c0e03860410800000000000000
+      internalID: 1442984826975584757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_99
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b5d801e71565cf0800000000000000
+      internalID: -263933926269166748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_100
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3f7c83a1bf97380800000000000000
+      internalID: -8972864692518652948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242aebb5cd7d44350800000000000000
+      internalID: 6000157944996340290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_102
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e268f993968ddc70800000000000000
+      internalID: 8997495599057625831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc9eb30d1fc1e6f0800000000000000
+      internalID: -657016347095556866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_104
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b6e75e3880bb20800000000000000
+      internalID: 3148165940876063759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_105
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fb7d88ae922c270800000000000000
+      internalID: 8269217953100578650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_106
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad2b46aff41b7310800000000000000
+      internalID: 1403738797095202214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_107
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb33dfa4a4bbe9e0800000000000000
+      internalID: -1590979423927845923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_108
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4454bcee81578e430800000000000000
+      internalID: 3812425834515088708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_109
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcc6912384ed18c0800000000000000
+      internalID: -4026811239943975690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89a5d34a030d5a20800000000000000
+      internalID: 3052599465049696650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_111
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3333b49572fd0d490800000000000000
+      internalID: -7723428000845581517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_112
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094bbbda69b5e6910800000000000000
+      internalID: 1832502801104352400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_113
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94713beed3d765770800000000000000
+      internalID: 8599198243461732169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_114
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3754cab46e6a60f00800000000000000
+      internalID: 1082736268471453043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_115
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad339eb943386ca40800000000000000
+      internalID: 5388138266172666842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_116
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 60
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097f9fa58aff8b6c0800000000000000
+      internalID: -4127267959939139696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b01a6eca85d7690800000000000000
+      internalID: -7602823096304596067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_118
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e212195cba811e1a0800000000000000
+      internalID: -6782112437810159314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_119
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca5a28fdddf8c4b0800000000000000
+      internalID: -5419803021747266866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_120
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e54a252011cc940800000000000000
+      internalID: 5317643961691823633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_121
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b81d0b9a049ea30800000000000000
+      internalID: 4244995221333576487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_122
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50248e80147886370800000000000000
+      internalID: 8316045425331683845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_123
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1d8cbf6f25b4810800000000000000
+      internalID: 1750584100903244217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_124
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eb37fd9a57e3da0800000000000000
+      internalID: -5963199484133130656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3eaec09e5e923f0800000000000000
+      internalID: -924955459341065221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_126
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506bb88fbde582800800000000000000
+      internalID: 587824050232604165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_127
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fd5900e300e4550800000000000000
+      internalID: 6146850807705100067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_128
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38dc217c9976cf20800000000000000
+      internalID: 3442572677991946301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_129
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3072b2cfa62e01c0800000000000000
+      internalID: -4535645238387904453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_130
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89afef03c5ef89c30800000000000000
+      internalID: 4366519510648158872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_131
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a7431958a688730800000000000000
+      internalID: 4001565390818015769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_132
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fd07736b9d075a0800000000000000
+      internalID: -6525476483422429421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765f13be1d84e0860800000000000000
+      internalID: 7498010496049739111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_134
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a502bdaee6ac81a80800000000000000
+      internalID: -8495818119298998182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_135
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c315f5939d4df2f50800000000000000
+      internalID: 6858934786944094524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_136
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6350e682a1a281e0800000000000000
+      internalID: -2197015948783758482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_137
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edaa0a99923514f0800000000000000
+      internalID: -858724518648435232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_138
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 48
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845deb7567ad26710800000000000000
+      internalID: 1685149412403107144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_139
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3d9b7177f2cac10800000000000000
+      internalID: 2066078517601883091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_140
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851f49d8f2b986860800000000000000
+      internalID: 7523433806063530328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_141
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98dade8b4ab452b0800000000000000
+      internalID: -5596643603232663394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_142
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d87875ed8cf4f00800000000000000
+      internalID: 1103321291005857149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbb35561fdea7c20800000000000000
+      internalID: 3205135705870416857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_144
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5eee793884fb2d30800000000000000
+      internalID: 4407885526229511771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_145
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45e366af59c25250800000000000000
+      internalID: 5932025071851005259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_146
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6009410822d4eab70800000000000000
+      internalID: 8912145523185848326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_147
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee30a7a3214494920800000000000000
+      internalID: 2974983873936098286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_148
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689504d385a365ea0800000000000000
+      internalID: -5884451712453813882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd74a23359d731020800000000000000
+      internalID: 2311329113533204445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_150
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2720c0eea1a6d5040800000000000000
+      internalID: 4637979855156937330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_151
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eac806e07069f40800000000000000
+      internalID: 5734778933833674348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_152
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb38d69650d84520800000000000000
+      internalID: 2686626248043019248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_153
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521f7ae01d89e77f0800000000000000
+      internalID: -612884475614334683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_154
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c2c321563a83ff0800000000000000
+      internalID: -56115340849173399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_155
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe865233afe04f0800000000000000
+      internalID: -860475381203275945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c9e8aebe6311b90800000000000000
+      internalID: -7272971536346211286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_157
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad3ff925af9eeb90800000000000000
+      internalID: -7210650421650571865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_158
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a0a938bc6c9810800000000000000
+      internalID: 1773411891773744360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_159
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cb91027c2056cf0800000000000000
+      internalID: -259798349243630506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_160
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9383cbab561f598d0800000000000000
+      internalID: -2840098570760341447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_161
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e4ebd122ac09180800000000000000
+      internalID: -9110559798293803380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_162
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df3f11187acf5a20800000000000000
+      internalID: 3053381689412632533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_163
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcafc89a4ce7b7d0800000000000000
+      internalID: -2902591629681513284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_164
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f1f59dfb81ec550800000000000000
+      internalID: 6182906550690979620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_165
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb71419a7c23c8bd0800000000000000
+      internalID: -2626668649547294785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_166
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a685254243760a000800000000000000
+      internalID: 45149469919041642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_167
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545aafad3468a0370800000000000000
+      internalID: 8289585690123609413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_168
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3227cf46983b89dc0800000000000000
+      internalID: -3631955696788147677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_169
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79856f238d7758b50800000000000000
+      internalID: 6594808999805606039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_170
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97aee394473662630800000000000000
+      internalID: 3901915478259329657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_171
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66908758829f5a630800000000000000
+      internalID: 3937827401638611302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb224780b3ee80d0800000000000000
+      internalID: -3418544719804617744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_173
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff001c5a8ef065f0800000000000000
+      internalID: -765332066449485832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_174
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd82b0f9cf6a92440800000000000000
+      internalID: 4911640472554514653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_175
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc12cda3e8dc214b0800000000000000
+      internalID: -5471084586545176115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca0fe9b85893b1e0800000000000000
+      internalID: -2183233887500563761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_177
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96522aa57de3b2a70800000000000000
+      internalID: 8803198991285233001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_178
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ff8f4dc67b9f840800000000000000
+      internalID: 5258435717989203850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_179
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b44dea31d6c0f90800000000000000
+      internalID: -6986088990653527173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_180
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 12
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5b9677fba1337c0800000000000000
+      internalID: -4092898226705156616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_181
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4210b2cca58689180800000000000000
+      internalID: -9108415507175112412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_182
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9270622d45f48a1d0800000000000000
+      internalID: -3339331897973668055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_183
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd5cce4b814a49c0800000000000000
+      internalID: -3942266457231172168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_184
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354d9f57f5d7af7d0800000000000000
+      internalID: -2883854762422709165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_185
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e8fa75efe6564c0800000000000000
+      internalID: -4294904630956028266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_186
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6d01bf76300b4b0800000000000000
+      internalID: -5426833805852748070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonSetPieces_187
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabac5e775e7102a0800000000000000
+      internalID: -6772993450341258322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

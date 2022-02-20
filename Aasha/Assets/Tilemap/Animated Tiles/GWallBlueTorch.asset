@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: GWallBlueTorch
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 6426588812588465168, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: -772438692951326327, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: 7367487516712277164, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: 8952769025790198612, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: -2013458477909992779, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: 4523351218979501640, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: 4913540895541173097, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: -9037412454250308943, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: -5702593291778845792, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: 457151108781110600, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: -7459488323422371906, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  - {fileID: 1100660166370463450, guid: 0037d6ce1e15d45c4acc64e31ec9c4aa, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

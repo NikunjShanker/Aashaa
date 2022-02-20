@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Cutscene Scenes/Splash Art Scene.unity
+    guid: 23b876a96dd8d52478d2777db4e65164
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 012442b490073b041856fb2ce5ea7f43
+  - enabled: 1
+    path: Assets/Scenes/Cutscene Scenes/Coronation Scene.unity
+    guid: f5b794ff547f2d54192ffe0fba69c851
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1/Level 1.unity
+    guid: 618d9a5e00d6de04088c23acecb50d14
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1/Level 2.unity
+    guid: f2a9a42c295f0944699bedeb34e98881
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1/Level 3.unity
+    guid: df28c32919673e142a706d8cdb27eda3
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2/Level 4.unity
+    guid: 6ee2f005412cb174eb37628e6febb7db
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 2ae5ef3cc2042b847b7d1cddfb1c8464,
+      type: 2}

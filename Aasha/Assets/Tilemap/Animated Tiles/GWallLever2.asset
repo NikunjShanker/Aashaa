@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: GWallLever2
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -6267988234874360207, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  - {fileID: -8287474011070881421, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  - {fileID: 5918402885491522857, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  - {fileID: -3260227112715839254, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  - {fileID: 1921058168674007334, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  - {fileID: 4712138115946164312, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  - {fileID: 6769140520374140908, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  - {fileID: 8154823241755344174, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  - {fileID: -1849344254895791915, guid: 6215392be3de6409eaa762925e09c1ae, type: 3}
+  m_MinSpeed: 20
+  m_MaxSpeed: 20
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: a10e75cd2d7c445eaad68ce229bc7a2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1838838469456936823
+    second: PurpleFlag_0
+  - first:
+      213: -3962110602757170235
+    second: PurpleFlag_1
+  - first:
+      213: -8763337552296724148
+    second: PurpleFlag_2
+  - first:
+      213: 1366647546748958939
+    second: PurpleFlag_3
+  - first:
+      213: -5162894652509628511
+    second: PurpleFlag_4
+  - first:
+      213: -7352515320859300586
+    second: PurpleFlag_5
+  - first:
+      213: 412588682005884937
+    second: PurpleFlag_6
+  - first:
+      213: 2060901863127914695
+    second: PurpleFlag_7
+  - first:
+      213: -490826685815741960
+    second: PurpleFlag_8
+  - first:
+      213: 3287448815456952175
+    second: PurpleFlag_9
+  - first:
+      213: -639373568580845230
+    second: PurpleFlag_10
+  - first:
+      213: -3608703670065692276
+    second: PurpleFlag_11
+  - first:
+      213: 1173534271380956490
+    second: PurpleFlag_12
+  - first:
+      213: -2858167594181501651
+    second: PurpleFlag_13
+  - first:
+      213: 639014789440931846
+    second: PurpleFlag_14
+  - first:
+      213: 2858423432813230382
+    second: PurpleFlag_15
+  - first:
+      213: 1179729367337154217
+    second: PurpleFlag_16
+  - first:
+      213: 26349156689588466
+    second: PurpleFlag_17
+  - first:
+      213: -4617036511963300928
+    second: PurpleFlag_18
+  - first:
+      213: 4032287013280730929
+    second: PurpleFlag_19
+  - first:
+      213: -1521942378054803692
+    second: PurpleFlag_20
+  - first:
+      213: 4566383670350865025
+    second: PurpleFlag_21
+  - first:
+      213: -2363958073933792406
+    second: PurpleFlag_22
+  - first:
+      213: 4449482903391018733
+    second: PurpleFlag_23
+  - first:
+      213: 9011860203288005864
+    second: PurpleFlag_24
+  - first:
+      213: -3910213841705194266
+    second: PurpleFlag_25
+  - first:
+      213: 1229826600606857992
+    second: PurpleFlag_26
+  - first:
+      213: 929921230967079851
+    second: PurpleFlag_27
+  - first:
+      213: -4569428718425969930
+    second: PurpleFlag_28
+  - first:
+      213: 8774587133543962664
+    second: PurpleFlag_29
+  - first:
+      213: 6543790811167331000
+    second: PurpleFlag_30
+  - first:
+      213: -8667496309659436424
+    second: PurpleFlag_31
+  - first:
+      213: 8036858254601147993
+    second: PurpleFlag_32
+  - first:
+      213: -1205156161636286496
+    second: PurpleFlag_33
+  - first:
+      213: -6615210701505314389
+    second: PurpleFlag_34
+  - first:
+      213: -2780254902447115848
+    second: PurpleFlag_35
+  - first:
+      213: -7245743866872573416
+    second: PurpleFlag_36
+  - first:
+      213: 4693236528508856519
+    second: PurpleFlag_37
+  - first:
+      213: -3787848053679255280
+    second: PurpleFlag_38
+  - first:
+      213: 5178791013319982065
+    second: PurpleFlag_39
+  - first:
+      213: -8642930505292262266
+    second: PurpleFlag_40
+  - first:
+      213: -8109459613144436524
+    second: PurpleFlag_41
+  - first:
+      213: 866088669808487590
+    second: PurpleFlag_42
+  - first:
+      213: -1622976900035075386
+    second: PurpleFlag_43
+  - first:
+      213: -5399038700648916174
+    second: PurpleFlag_44
+  - first:
+      213: -211554824969356956
+    second: PurpleFlag_45
+  - first:
+      213: -7243838683691319292
+    second: PurpleFlag_46
+  - first:
+      213: -2749020094638953041
+    second: PurpleFlag_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PurpleFlag_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 72
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98042b497222b76e0800000000000000
+      internalID: -1838838469456936823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleFlag_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 72
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb99d12661c309c0800000000000000
+      internalID: -3962110602757170235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleFlag_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 72
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4933842dee526680800000000000000
+      internalID: -8763337552296724148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleFlag_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd87125f3be47f210800000000000000
+      internalID: 1366647546748958939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleFlag_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 36
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a75660faa6b958b0800000000000000
+      internalID: -5162894652509628511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleFlag_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 36
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d609e554e96f990800000000000000
+      internalID: -7352515320859300586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleFlag_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900be45683fc9b500800000000000000
+      internalID: 412588682005884937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleFlag_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c81eac435bc99c10800000000000000
+      internalID: 2060901863127914695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

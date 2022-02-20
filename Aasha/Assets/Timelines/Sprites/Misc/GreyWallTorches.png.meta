@@ -1,0 +1,1700 @@
+fileFormatVersion: 2
+guid: 0037d6ce1e15d45c4acc64e31ec9c4aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5192476458246496521
+    second: GreyWallTorches_0
+  - first:
+      213: 6426588812588465168
+    second: GreyWallTorches_1
+  - first:
+      213: -4429081977087419242
+    second: GreyWallTorches_2
+  - first:
+      213: -9002499127709345333
+    second: GreyWallTorches_3
+  - first:
+      213: -4463565438519192107
+    second: GreyWallTorches_4
+  - first:
+      213: -772438692951326327
+    second: GreyWallTorches_5
+  - first:
+      213: 2093818672049417665
+    second: GreyWallTorches_6
+  - first:
+      213: -765201615356940345
+    second: GreyWallTorches_7
+  - first:
+      213: -7543474847116443863
+    second: GreyWallTorches_8
+  - first:
+      213: 7367487516712277164
+    second: GreyWallTorches_9
+  - first:
+      213: -7907064004394708296
+    second: GreyWallTorches_10
+  - first:
+      213: -8297063060466746466
+    second: GreyWallTorches_11
+  - first:
+      213: 8111153035060068676
+    second: GreyWallTorches_12
+  - first:
+      213: 8952769025790198612
+    second: GreyWallTorches_13
+  - first:
+      213: -3293313247921259208
+    second: GreyWallTorches_14
+  - first:
+      213: -8167031338693512365
+    second: GreyWallTorches_15
+  - first:
+      213: 5568511699416825319
+    second: GreyWallTorches_16
+  - first:
+      213: -2013458477909992779
+    second: GreyWallTorches_17
+  - first:
+      213: -5630220413289232566
+    second: GreyWallTorches_18
+  - first:
+      213: -7320333665283566888
+    second: GreyWallTorches_19
+  - first:
+      213: 3905368531220601719
+    second: GreyWallTorches_20
+  - first:
+      213: 4523351218979501640
+    second: GreyWallTorches_21
+  - first:
+      213: 250998546153811117
+    second: GreyWallTorches_22
+  - first:
+      213: 288087153839018285
+    second: GreyWallTorches_23
+  - first:
+      213: -2108604846614686377
+    second: GreyWallTorches_24
+  - first:
+      213: 4913540895541173097
+    second: GreyWallTorches_25
+  - first:
+      213: -6675792411866722210
+    second: GreyWallTorches_26
+  - first:
+      213: -6786999855507490495
+    second: GreyWallTorches_27
+  - first:
+      213: 4046201328215173556
+    second: GreyWallTorches_28
+  - first:
+      213: -9037412454250308943
+    second: GreyWallTorches_29
+  - first:
+      213: 9183119817928747011
+    second: GreyWallTorches_30
+  - first:
+      213: 8434410975913322100
+    second: GreyWallTorches_31
+  - first:
+      213: -3704872607153785708
+    second: GreyWallTorches_32
+  - first:
+      213: -5702593291778845792
+    second: GreyWallTorches_33
+  - first:
+      213: 1636024977760901994
+    second: GreyWallTorches_34
+  - first:
+      213: 7091287743366202421
+    second: GreyWallTorches_35
+  - first:
+      213: 7487254964405200249
+    second: GreyWallTorches_36
+  - first:
+      213: 457151108781110600
+    second: GreyWallTorches_37
+  - first:
+      213: -6954781191079112322
+    second: GreyWallTorches_38
+  - first:
+      213: -4780103865862950655
+    second: GreyWallTorches_39
+  - first:
+      213: -9113035786277359281
+    second: GreyWallTorches_40
+  - first:
+      213: -7459488323422371906
+    second: GreyWallTorches_41
+  - first:
+      213: 8294075950622655468
+    second: GreyWallTorches_42
+  - first:
+      213: -2612764546714382449
+    second: GreyWallTorches_43
+  - first:
+      213: 5712303885390194087
+    second: GreyWallTorches_44
+  - first:
+      213: 1100660166370463450
+    second: GreyWallTorches_45
+  - first:
+      213: -1451576359874318111
+    second: GreyWallTorches_46
+  - first:
+      213: -2248361789211965643
+    second: GreyWallTorches_47
+  - first:
+      213: 6190269907749358779
+    second: GreyWallTorches_48
+  - first:
+      213: -1922643852214724962
+    second: GreyWallTorches_49
+  - first:
+      213: -5657295629695893029
+    second: GreyWallTorches_50
+  - first:
+      213: -7077963573948122265
+    second: GreyWallTorches_51
+  - first:
+      213: 8106080056464559349
+    second: GreyWallTorches_52
+  - first:
+      213: 4276622184554208877
+    second: GreyWallTorches_53
+  - first:
+      213: -9123878678176050661
+    second: GreyWallTorches_54
+  - first:
+      213: 783008308730066567
+    second: GreyWallTorches_55
+  - first:
+      213: 2184673743071583399
+    second: GreyWallTorches_56
+  - first:
+      213: 5529709333395403563
+    second: GreyWallTorches_57
+  - first:
+      213: -8837517036793796944
+    second: GreyWallTorches_58
+  - first:
+      213: -8765851541728185092
+    second: GreyWallTorches_59
+  - first:
+      213: 6032571807636759063
+    second: GreyWallTorches_60
+  - first:
+      213: -1028943509334761014
+    second: GreyWallTorches_61
+  - first:
+      213: 3856267081218684526
+    second: GreyWallTorches_62
+  - first:
+      213: 3811382299553974835
+    second: GreyWallTorches_63
+  - first:
+      213: -8554014305480528484
+    second: GreyWallTorches_64
+  - first:
+      213: 2241787822920092301
+    second: GreyWallTorches_65
+  - first:
+      213: 7266904786941875955
+    second: GreyWallTorches_66
+  - first:
+      213: -4555240284770637925
+    second: GreyWallTorches_67
+  - first:
+      213: -1056802865546368263
+    second: GreyWallTorches_68
+  - first:
+      213: 6956064649110326502
+    second: GreyWallTorches_69
+  - first:
+      213: -353497299276699024
+    second: GreyWallTorches_70
+  - first:
+      213: 7801248865352558100
+    second: GreyWallTorches_71
+  - first:
+      213: -8428371699509400492
+    second: GreyWallTorches_72
+  - first:
+      213: -4199427985601098079
+    second: GreyWallTorches_73
+  - first:
+      213: -2738857695291180101
+    second: GreyWallTorches_74
+  - first:
+      213: 53526336131578516
+    second: GreyWallTorches_75
+  - first:
+      213: -1924821515192825175
+    second: GreyWallTorches_76
+  - first:
+      213: 7603917973733608288
+    second: GreyWallTorches_77
+  - first:
+      213: -2305050743957714848
+    second: GreyWallTorches_78
+  - first:
+      213: -5237886646178129499
+    second: GreyWallTorches_79
+  - first:
+      213: 1224248598983356750
+    second: GreyWallTorches_80
+  - first:
+      213: -2096102499564043110
+    second: GreyWallTorches_81
+  - first:
+      213: 3783963142642109764
+    second: GreyWallTorches_82
+  - first:
+      213: -5058961539001580441
+    second: GreyWallTorches_83
+  - first:
+      213: 1367419087788710401
+    second: GreyWallTorches_84
+  - first:
+      213: -8973293320708900336
+    second: GreyWallTorches_85
+  - first:
+      213: -1339161737351665347
+    second: GreyWallTorches_86
+  - first:
+      213: 6027953022809913335
+    second: GreyWallTorches_87
+  - first:
+      213: -7257670716878727438
+    second: GreyWallTorches_88
+  - first:
+      213: -4594270271219742711
+    second: GreyWallTorches_89
+  - first:
+      213: 858178456563122927
+    second: GreyWallTorches_90
+  - first:
+      213: 3365903393054078429
+    second: GreyWallTorches_91
+  - first:
+      213: 465990006839383156
+    second: GreyWallTorches_92
+  - first:
+      213: -4736985823374371699
+    second: GreyWallTorches_93
+  - first:
+      213: -7666315069746407259
+    second: GreyWallTorches_94
+  - first:
+      213: -662310023107725882
+    second: GreyWallTorches_95
+  - first:
+      213: 648441300413172175
+    second: GreyWallTorches_96
+  - first:
+      213: -2662735396753244853
+    second: GreyWallTorches_97
+  - first:
+      213: 3081904300921922775
+    second: GreyWallTorches_98
+  - first:
+      213: -1449465745104162489
+    second: GreyWallTorches_99
+  - first:
+      213: 2624675837428960139
+    second: GreyWallTorches_100
+  - first:
+      213: -9214402383600564258
+    second: GreyWallTorches_101
+  - first:
+      213: -2286425369855595652
+    second: GreyWallTorches_102
+  - first:
+      213: 5368690291834860324
+    second: GreyWallTorches_103
+  - first:
+      213: -7443200867515531795
+    second: GreyWallTorches_104
+  - first:
+      213: 5006761097691875358
+    second: GreyWallTorches_105
+  - first:
+      213: 3759736411645204339
+    second: GreyWallTorches_106
+  - first:
+      213: -7559724314985241079
+    second: GreyWallTorches_107
+  - first:
+      213: -3315327979338393278
+    second: GreyWallTorches_108
+  - first:
+      213: 3960424146251181871
+    second: GreyWallTorches_109
+  - first:
+      213: -8577549928653449250
+    second: GreyWallTorches_110
+  - first:
+      213: 441520530646650723
+    second: GreyWallTorches_111
+  - first:
+      213: -8681783609999243115
+    second: GreyWallTorches_112
+  - first:
+      213: 4486559752196043336
+    second: GreyWallTorches_113
+  - first:
+      213: -4577782889016452202
+    second: GreyWallTorches_114
+  - first:
+      213: -1540569251321980787
+    second: GreyWallTorches_115
+  - first:
+      213: 35745524474260677
+    second: GreyWallTorches_116
+  - first:
+      213: 5135439098455775650
+    second: GreyWallTorches_117
+  - first:
+      213: -1028452551102402902
+    second: GreyWallTorches_118
+  - first:
+      213: 5325165414358647278
+    second: GreyWallTorches_119
+  - first:
+      213: 1043259333513020464
+    second: GreyWallTorches_120
+  - first:
+      213: 9050448999486175894
+    second: GreyWallTorches_121
+  - first:
+      213: 6482632705604275286
+    second: GreyWallTorches_122
+  - first:
+      213: -4562472247682704585
+    second: GreyWallTorches_123
+  - first:
+      213: 7151127207864339570
+    second: GreyWallTorches_124
+  - first:
+      213: 3660351919946273048
+    second: GreyWallTorches_125
+  - first:
+      213: -8439828244977842299
+    second: GreyWallTorches_126
+  - first:
+      213: -9094153404685718033
+    second: GreyWallTorches_127
+  - first:
+      213: 1156427514699784242
+    second: GreyWallTorches_128
+  - first:
+      213: -8715404649236481124
+    second: GreyWallTorches_129
+  - first:
+      213: 352767601943635512
+    second: GreyWallTorches_130
+  - first:
+      213: 590594680503980056
+    second: GreyWallTorches_131
+  - first:
+      213: 7473748250454478160
+    second: GreyWallTorches_132
+  - first:
+      213: -73178011257077734
+    second: GreyWallTorches_133
+  - first:
+      213: -9071245163929393021
+    second: GreyWallTorches_134
+  - first:
+      213: -6102332194893665236
+    second: GreyWallTorches_135
+  - first:
+      213: -2334796582702137249
+    second: GreyWallTorches_136
+  - first:
+      213: -1919687322965138324
+    second: GreyWallTorches_137
+  - first:
+      213: -8087285631178984598
+    second: GreyWallTorches_138
+  - first:
+      213: 8245316468277791631
+    second: GreyWallTorches_139
+  - first:
+      213: 7961871698429436034
+    second: GreyWallTorches_140
+  - first:
+      213: -5796555879684604530
+    second: GreyWallTorches_141
+  - first:
+      213: -3714796805922157474
+    second: GreyWallTorches_142
+  - first:
+      213: 5501639470863433478
+    second: GreyWallTorches_143
+  - first:
+      213: -3039993604626882867
+    second: GreyWallTorches_144
+  - first:
+      213: 2313413366148677162
+    second: GreyWallTorches_145
+  - first:
+      213: -7499760604226859939
+    second: GreyWallTorches_146
+  - first:
+      213: -4876307876107776526
+    second: GreyWallTorches_147
+  - first:
+      213: 5441859267186142935
+    second: GreyWallTorches_148
+  - first:
+      213: -2817433505647101112
+    second: GreyWallTorches_149
+  - first:
+      213: -8780576695172597832
+    second: GreyWallTorches_150
+  - first:
+      213: -3414650427548434999
+    second: GreyWallTorches_151
+  - first:
+      213: -4159138650601979385
+    second: GreyWallTorches_152
+  - first:
+      213: -520905057135908487
+    second: GreyWallTorches_153
+  - first:
+      213: 3296708549272859080
+    second: GreyWallTorches_154
+  - first:
+      213: 6780941479344356817
+    second: GreyWallTorches_155
+  - first:
+      213: -9102968454952887654
+    second: GreyWallTorches_156
+  - first:
+      213: 7342823952456449652
+    second: GreyWallTorches_157
+  - first:
+      213: 2376407139387607173
+    second: GreyWallTorches_158
+  - first:
+      213: 8826956377807989014
+    second: GreyWallTorches_159
+  - first:
+      213: -4947238091617990550
+    second: GreyWallTorches_160
+  - first:
+      213: 2539328476692657252
+    second: GreyWallTorches_161
+  - first:
+      213: 6593850034067321405
+    second: GreyWallTorches_162
+  - first:
+      213: -8985118377525449042
+    second: GreyWallTorches_163
+  - first:
+      213: -2139434760109759970
+    second: GreyWallTorches_164
+  - first:
+      213: -5118781180942156410
+    second: GreyWallTorches_165
+  - first:
+      213: 7802388917979951262
+    second: GreyWallTorches_166
+  - first:
+      213: 1457623698226645332
+    second: GreyWallTorches_167
+  - first:
+      213: 1299437747487781447
+    second: GreyWallTorches_168
+  - first:
+      213: 4963294430232506513
+    second: GreyWallTorches_169
+  - first:
+      213: -7871255615300510087
+    second: GreyWallTorches_170
+  - first:
+      213: 7187822820243271611
+    second: GreyWallTorches_171
+  - first:
+      213: 8223526898672731295
+    second: GreyWallTorches_172
+  - first:
+      213: -6289505548026286360
+    second: GreyWallTorches_173
+  - first:
+      213: -3876398016223802479
+    second: GreyWallTorches_174
+  - first:
+      213: 1321613735121830662
+    second: GreyWallTorches_175
+  - first:
+      213: 2996064557046498158
+    second: GreyWallTorches_176
+  - first:
+      213: 2663291430041512334
+    second: GreyWallTorches_177
+  - first:
+      213: -734664270536613620
+    second: GreyWallTorches_178
+  - first:
+      213: -4463899085363947010
+    second: GreyWallTorches_179
+  - first:
+      213: -329413865817963455
+    second: GreyWallTorches_180
+  - first:
+      213: 1968269521993859927
+    second: GreyWallTorches_181
+  - first:
+      213: 7525310318595560101
+    second: GreyWallTorches_182
+  - first:
+      213: -1550081518379913995
+    second: GreyWallTorches_183
+  - first:
+      213: 2781181591390004864
+    second: GreyWallTorches_184
+  - first:
+      213: 7443322316247213678
+    second: GreyWallTorches_185
+  - first:
+      213: -4407191332181554667
+    second: GreyWallTorches_186
+  - first:
+      213: -5470033524525319571
+    second: GreyWallTorches_187
+  - first:
+      213: -4617191480302834038
+    second: GreyWallTorches_188
+  - first:
+      213: -4257713134823503140
+    second: GreyWallTorches_189
+  - first:
+      213: -5123176192981457249
+    second: GreyWallTorches_190
+  - first:
+      213: 6548755219556810923
+    second: GreyWallTorches_191
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreyWallTorches_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe93a11c2e90f7b0800000000000000
+      internalID: -5192476458246496521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cb5dbb974df2950800000000000000
+      internalID: 6426588812588465168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c9e9a786db882c0800000000000000
+      internalID: -4429081977087419242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9de1a9db2b01380800000000000000
+      internalID: -9002499127709345333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d55a55f1ea3e02c0800000000000000
+      internalID: -4463565438519192107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9818edfe91fb745f0800000000000000
+      internalID: -772438692951326327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cde59b1dfcbe0d10800000000000000
+      internalID: 2093818672049417665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf281f5f257165f0800000000000000
+      internalID: -765201615356940345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb785f791305790800000000000000
+      internalID: -7543474847116443863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca492c0acd29e3660800000000000000
+      internalID: 7367487516712277164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b296c17e27744290800000000000000
+      internalID: -7907064004394708296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b3dd13b19eadc80800000000000000
+      internalID: -8297063060466746466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441469de5ba909070800000000000000
+      internalID: 8111153035060068676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4534852ceff9e3c70800000000000000
+      internalID: 8952769025790198612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83db09bbc0dcb42d0800000000000000
+      internalID: -3293313247921259208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 48
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353b0bba440e8ae80800000000000000
+      internalID: -8167031338693512365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edb85b23e3574d40800000000000000
+      internalID: 5568511699416825319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba1d2e9e22ce04e0800000000000000
+      internalID: -2013458477909992779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a470eb24d507dd1b0800000000000000
+      internalID: -5630220413289232566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d29073f053f86a90800000000000000
+      internalID: -7320333665283566888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b9464dcf7a23630800000000000000
+      internalID: 3905368531220601719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8467a99c7fb26ce30800000000000000
+      internalID: 4523351218979501640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac23ae09d9bb7300800000000000000
+      internalID: 250998546153811117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d219de47dbd7ff300800000000000000
+      internalID: 288087153839018285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7555dd9501bbcb2e0800000000000000
+      internalID: -2108604846614686377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b16145967603440800000000000000
+      internalID: 4913540895541173097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509f68db22da53a0800000000000000
+      internalID: -6675792411866722210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_27
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14939d9279bbfc1a0800000000000000
+      internalID: -6786999855507490495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9aaf99baef62830800000000000000
+      internalID: 4046201328215173556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_29
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba18bf4149a49280800000000000000
+      internalID: -9037412454250308943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3082e75f1def07f70800000000000000
+      internalID: 9183119817928747011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_31
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 24
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47628fc581c0d0570800000000000000
+      internalID: 8434410975913322100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494f5883ef5a59cc0800000000000000
+      internalID: -3704872607153785708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a31ff06d915cd0b0800000000000000
+      internalID: -5702593291778845792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bda1b9c0454b610800000000000000
+      internalID: 1636024977760901994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_35
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5348c6f91a0596260800000000000000
+      internalID: 7091287743366202421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975e62098b218e760800000000000000
+      internalID: 7487254964405200249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845f297e280285600800000000000000
+      internalID: 457151108781110600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71592fca57ab7f90800000000000000
+      internalID: -6954781191079112322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_39
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10174cd2cd8a9adb0800000000000000
+      internalID: -4780103865862950655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41f38d3c3ef78180800000000000000
+      internalID: -9113035786277359281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_41
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf3c3454e29a7890800000000000000
+      internalID: -7459488323422371906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce349f8122a7a1370800000000000000
+      internalID: 8294075950622655468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_43
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fca5fdc789dbbd0800000000000000
+      internalID: -2612764546714382449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a524c16e1e264f40800000000000000
+      internalID: 5712303885390194087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_45
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade0feaf694564f00800000000000000
+      internalID: 1100660166370463450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_46
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e03651ddf6fadbe0800000000000000
+      internalID: -1451576359874318111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyWallTorches_47
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53785737dd63cc0e0800000000000000
+      internalID: -2248361789211965643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

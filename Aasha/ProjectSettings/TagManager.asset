@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Respawn Point
+  - Lava
+  - Heart
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Obstacles
+  - Enemy
+  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 3289397839
+    locked: 0
+  - name: Lava
+    uniqueID: 1031079891
+    locked: 0
+  - name: BG 2
+    uniqueID: 905069303
+    locked: 0
+  - name: BG 3
+    uniqueID: 1706398733
+    locked: 0
+  - name: Player
+    uniqueID: 3653774863
+    locked: 0
+  - name: FG
+    uniqueID: 618727749
+    locked: 0
+  - name: FG 2
+    uniqueID: 2199797209
+    locked: 0
+  - name: FG 3
+    uniqueID: 8321161
+    locked: 0
+  - name: UI
+    uniqueID: 2808735991
+    locked: 0

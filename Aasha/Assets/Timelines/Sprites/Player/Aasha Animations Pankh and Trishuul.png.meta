@@ -1,0 +1,1646 @@
+fileFormatVersion: 2
+guid: ac60217e454cd4316946c51ebcb69619
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5655130678783321507
+    second: PankhIdle_0
+  - first:
+      213: 6673105561384943286
+    second: PankhAttack_0
+  - first:
+      213: 9210520147095169751
+    second: PankhCollapse_0
+  - first:
+      213: 7317361834009210741
+    second: TrishuulIdle_0
+  - first:
+      213: -1900276962943453865
+    second: TrishuulAttack_0
+  - first:
+      213: 7252242801107860292
+    second: TrishuulCollapse_0
+  - first:
+      213: -4805356607800376234
+    second: AashaIdle_0
+  - first:
+      213: 4053148692535334315
+    second: AashaRun_0
+  - first:
+      213: -6169973849792695120
+    second: AashaJump_0
+  - first:
+      213: 710063510903860473
+    second: AashaJump_6
+  - first:
+      213: -4591457020714399558
+    second: PankhIdle_1
+  - first:
+      213: 5613424027540401507
+    second: PankhAttack_1
+  - first:
+      213: 2471715901459030957
+    second: PankhCollapse_1
+  - first:
+      213: -5827466032734821898
+    second: TrishuulIdle_1
+  - first:
+      213: 6449639495509789754
+    second: TrishuulAttack_1
+  - first:
+      213: -8527591029749734014
+    second: TrishuulCollapse_1
+  - first:
+      213: 733045318616469174
+    second: AashaIdle_1
+  - first:
+      213: -465952301658477956
+    second: AashaRun_1
+  - first:
+      213: -1979531777466146450
+    second: AashaJump_1
+  - first:
+      213: 3472397822823420485
+    second: AashaJump_7
+  - first:
+      213: 7738284379502768277
+    second: PankhIdle_2
+  - first:
+      213: 7549935844153331727
+    second: PankhAttack_2
+  - first:
+      213: 5767346153789544369
+    second: PankhCollapse_2
+  - first:
+      213: 5833239707841125674
+    second: TrishuulIdle_2
+  - first:
+      213: 1570936543587954567
+    second: TrishuulAttack_2
+  - first:
+      213: 4918751292778571968
+    second: TrishuulCollapse_2
+  - first:
+      213: -4614818720698400547
+    second: AashaIdle_2
+  - first:
+      213: -6624459102662338126
+    second: AashaRun_2
+  - first:
+      213: 3477281818001538294
+    second: AashaJump_2
+  - first:
+      213: -1954191993560124011
+    second: Aasha Animations Pankh and Trishuul_29
+  - first:
+      213: 6513529696723662299
+    second: PankhIdle_3
+  - first:
+      213: -7767470786288475825
+    second: PankhAttack_3
+  - first:
+      213: 8523418718263439436
+    second: PankhCollapse_3
+  - first:
+      213: -4845615812034003522
+    second: TrishuulIdle_3
+  - first:
+      213: 8285017225059734212
+    second: TrishuulAttack_3
+  - first:
+      213: -7023488754328902545
+    second: TrishuulCollapse_3
+  - first:
+      213: -2104165802514177482
+    second: AashaIdle_3
+  - first:
+      213: 6250101591736256769
+    second: AashaRun_3
+  - first:
+      213: 7134510921922446608
+    second: AashaJump_3
+  - first:
+      213: 4381032627831281824
+    second: Aasha Animations Pankh and Trishuul_39
+  - first:
+      213: 3884519497541282598
+    second: PankhIdle_4
+  - first:
+      213: 1712698391783452819
+    second: PankhAttack_4
+  - first:
+      213: 8780547767654275000
+    second: PankhCollapse_4
+  - first:
+      213: 9147622223497568951
+    second: TrishuulIdle_4
+  - first:
+      213: -1209524631927451038
+    second: TrishuulAttack_4
+  - first:
+      213: -1528982199689269942
+    second: TrishuulCollapse_4
+  - first:
+      213: -8085625755131991592
+    second: AashaIdle_4
+  - first:
+      213: -1293290927575096020
+    second: AashaRun_4
+  - first:
+      213: 3983666616893049103
+    second: AashaJump_4
+  - first:
+      213: -5941249645480231358
+    second: Aasha Animations Pankh and Trishuul_49
+  - first:
+      213: 792434874889182059
+    second: PankhAttack_5
+  - first:
+      213: 2923017246757700647
+    second: PankhCollapse_5
+  - first:
+      213: -7066207285894911439
+    second: TrishuulAttack_5
+  - first:
+      213: 6070592224381916954
+    second: TrishuulCollapse_5
+  - first:
+      213: -1852617803528973464
+    second: AashaRun_5
+  - first:
+      213: 6630370690792323463
+    second: AashaJump_5
+  - first:
+      213: -1275302958735013079
+    second: Aasha Animations Pankh and Trishuul_56
+  - first:
+      213: -1535668596433064470
+    second: PankhCollapse_6
+  - first:
+      213: 7331370591272713782
+    second: TrishuulAttack_6
+  - first:
+      213: -1422650935700762740
+    second: TrishuulCollapse_6
+  - first:
+      213: 4248768138631451264
+    second: AashaRun_6
+  - first:
+      213: 1657586427881667529
+    second: Aasha Animations Pankh and Trishuul_61
+  - first:
+      213: 553470570987564782
+    second: PankhCollapse_7
+  - first:
+      213: 3746136013675340776
+    second: AashaRun_7
+  - first:
+      213: 6900035508473328820
+    second: TrishuulAttack_7
+  - first:
+      213: -2235776158464607344
+    second: TrishuulCollapse_7
+  - first:
+      213: -1219940955762402349
+    second: Aasha Animations Pankh and Trishuul_66
+  - first:
+      213: -441039751485331220
+    second: AashaRun_8
+  - first:
+      213: 489617135207655272
+    second: AashaRun_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PankhIdle_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 324
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ad4bc1c90f481b0800000000000000
+      internalID: -5655130678783321507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhAttack_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 324
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.45833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be78070722ab9c50800000000000000
+      internalID: 6673105561384943286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhCollapse_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 327
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daaf2c364752df70800000000000000
+      internalID: 9210520147095169751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulIdle_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 324
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0.375, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fae19a1dd7c8560800000000000000
+      internalID: 7317361834009210741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulAttack_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 325
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: 0.36, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755b5e89b2cd0a5e0800000000000000
+      internalID: -1900276962943453865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulCollapse_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 324
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bfae0576425a460800000000000000
+      internalID: 7252242801107860292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaIdle_0
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 324
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6548bf400a1ff4db0800000000000000
+      internalID: -4805356607800376234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 324
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba55868e24daf3830800000000000000
+      internalID: 4053148692535334315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaJump_0
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 324
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b438a93979df5aa0800000000000000
+      internalID: -6169973849792695120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaJump_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 324
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc24674007aad900800000000000000
+      internalID: 710063510903860473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhIdle_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 288
+        width: 19
+        height: 21
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab848de8a2ed740c0800000000000000
+      internalID: -4591457020714399558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhAttack_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 288
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.37931034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d203f6963e6ed40800000000000000
+      internalID: 5613424027540401507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhCollapse_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 292
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da36624448c4d4220800000000000000
+      internalID: 2471715901459030957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulIdle_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 288
+        width: 24
+        height: 20
+      alignment: 9
+      pivot: {x: 0.375, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1af2ab48ea02fa0800000000000000
+      internalID: -5827466032734821898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulAttack_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 288
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: 0.36, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cc03313f8b18950800000000000000
+      internalID: 6449639495509789754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulCollapse_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 289
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285a5f9b329e7a980800000000000000
+      internalID: -8527591029749734014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaIdle_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 288
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bec56c55dc4c2a00800000000000000
+      internalID: 733045318616469174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 288
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aee51b9da9889f0800000000000000
+      internalID: -465952301658477956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaJump_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 288
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61688e165a4784e0800000000000000
+      internalID: -1979531777466146450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaJump_7
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 288
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542da3c1c6f603030800000000000000
+      internalID: 3472397822823420485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhIdle_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 252
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590773bd4a8e36b60800000000000000
+      internalID: 7738284379502768277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhAttack_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 252
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.36, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f009fb326a2c6c860800000000000000
+      internalID: 7549935844153331727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhCollapse_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 258
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7575925cab90050800000000000000
+      internalID: 5767346153789544369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulIdle_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 252
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0.375, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dd293cb94d3f050800000000000000
+      internalID: 5833239707841125674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulAttack_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 252
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0.375, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f6d3596761dc510800000000000000
+      internalID: 1570936543587954567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulCollapse_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c86f887d3ae24440800000000000000
+      internalID: 4918751292778571968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaIdle_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 252
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd003f9e2ded4ffb0800000000000000
+      internalID: -4614818720698400547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 253
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b955b44b813114a0800000000000000
+      internalID: -6624459102662338126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaJump_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 253
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcf7e9d369c14030800000000000000
+      internalID: 3477281818001538294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhIdle_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 216
+        width: 19
+        height: 21
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5fb2fbfb4b46a50800000000000000
+      internalID: 6513529696723662299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhAttack_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 216
+        width: 28
+        height: 22
+      alignment: 9
+      pivot: {x: 0.32142857, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f412d044976643490800000000000000
+      internalID: -7767470786288475825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhCollapse_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 223
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40f10e4a24494670800000000000000
+      internalID: 8523418718263439436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulIdle_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 216
+        width: 24
+        height: 20
+      alignment: 9
+      pivot: {x: 0.375, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd72b5971ae0ccb0800000000000000
+      internalID: -4845615812034003522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulAttack_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 216
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0.375, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c29da1354b4af270800000000000000
+      internalID: 8285017225059734212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulCollapse_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 223
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f646642a03e878e90800000000000000
+      internalID: -7023488754328902545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaIdle_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 216
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6322e98d9508cc2e0800000000000000
+      internalID: -2104165802514177482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 217
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.6923077, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1090b818842dcb650800000000000000
+      internalID: 6250101591736256769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaJump_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 217
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015055b12efd20360800000000000000
+      internalID: 7134510921922446608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhIdle_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 180
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62be606e6e598e530800000000000000
+      internalID: 3884519497541282598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhAttack_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 180
+        width: 26
+        height: 21
+      alignment: 9
+      pivot: {x: 0.34615386, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390b2a1fc1ab4c710800000000000000
+      internalID: 1712698391783452819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhCollapse_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 187
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7d1606ca5cad970800000000000000
+      internalID: 8780547767654275000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulIdle_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 180
+        width: 24
+        height: 21
+      alignment: 9
+      pivot: {x: 0.375, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2aa0332f1e2fe70800000000000000
+      internalID: 9147622223497568951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulAttack_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 180
+        width: 25
+        height: 21
+      alignment: 9
+      pivot: {x: 0.36, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26211ee61c7e63fe0800000000000000
+      internalID: -1209524631927451038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulCollapse_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 190
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d20af4ac6f7cae0800000000000000
+      internalID: -1528982199689269942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaIdle_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 180
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9ab9617361acf80800000000000000
+      internalID: -8085625755131991592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 180
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.6923077, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25a6a6e0ce4d0ee0800000000000000
+      internalID: -1293290927575096020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaJump_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 181
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f090e738ea3d84730800000000000000
+      internalID: 3983666616893049103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhAttack_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 144
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: 0.34615386, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b9669f15b4ffa00800000000000000
+      internalID: 792434874889182059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhCollapse_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 152
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7244559f2b4a09820800000000000000
+      internalID: 2923017246757700647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulAttack_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 144
+        width: 28
+        height: 21
+      alignment: 9
+      pivot: {x: 0.32142857, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ae4fe69e9cfed90800000000000000
+      internalID: -7066207285894911439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulCollapse_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 153
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a175886f6731f3450800000000000000
+      internalID: 6070592224381916954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 144
+        width: 13
+        height: 21
+      alignment: 9
+      pivot: {x: 0.6923077, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863571c5ced2a46e0800000000000000
+      internalID: -1852617803528973464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaJump_5
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 145
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78976d9930fc30c50800000000000000
+      internalID: 6630370690792323463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhCollapse_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 117
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed62e04c8530bae0800000000000000
+      internalID: -1535668596433064470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulAttack_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 108
+        width: 29
+        height: 20
+      alignment: 9
+      pivot: {x: 0.31034482, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e3e81a5b24eb560800000000000000
+      internalID: 7331370591272713782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulCollapse_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 117
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fcd22f28ab14ce0800000000000000
+      internalID: -1422650935700762740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 108
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08210247c18a6fa30800000000000000
+      internalID: 4248768138631451264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PankhCollapse_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 93
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeea8594d825ea700800000000000000
+      internalID: 553470570987564782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 73
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3aa674bd2fcf330800000000000000
+      internalID: 3746136013675340776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulAttack_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 72
+        width: 29
+        height: 20
+      alignment: 9
+      pivot: {x: 0.31034482, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4722cacb9d1cf50800000000000000
+      internalID: 6900035508473328820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrishuulCollapse_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 81
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bfd65fd6de8f0e0800000000000000
+      internalID: -2235776158464607344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 37
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.6923077, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8e3e8ceac11e9f0800000000000000
+      internalID: -441039751485331220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AashaRun_9
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: 0.6923077, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8672ffbb0387bc600800000000000000
+      internalID: 489617135207655272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

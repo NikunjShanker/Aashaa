@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: RWallLever1
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 1489324066512785107, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  - {fileID: 7215440406609058677, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  - {fileID: -7765598472422137189, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  - {fileID: 5746956559402205288, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  - {fileID: -2141923489314582016, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  - {fileID: 306897664634661535, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  - {fileID: -5468712904796989966, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  - {fileID: 4469668091260306835, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  - {fileID: -5589533284916890780, guid: 50f17cc952cd4480f81a18b3cbd8f5ec, type: 3}
+  m_MinSpeed: 20
+  m_MaxSpeed: 20
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

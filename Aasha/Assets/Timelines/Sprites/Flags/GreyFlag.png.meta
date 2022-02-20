@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 358123293476d44218af5ccc9dfe29c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6505718469368506800
+    second: GreyFlag_0
+  - first:
+      213: 3840222403987646628
+    second: GreyFlag_1
+  - first:
+      213: 1342290209426069327
+    second: GreyFlag_2
+  - first:
+      213: 2312269533787441583
+    second: GreyFlag_3
+  - first:
+      213: 157737024469686460
+    second: GreyFlag_4
+  - first:
+      213: -271944291376008941
+    second: GreyFlag_5
+  - first:
+      213: -9132522343811415453
+    second: GreyFlag_6
+  - first:
+      213: 3921346444089247967
+    second: GreyFlag_7
+  - first:
+      213: 3402043336575312133
+    second: GreyFlag_8
+  - first:
+      213: -6423452081841243661
+    second: GreyFlag_9
+  - first:
+      213: 4652971249490473486
+    second: GreyFlag_10
+  - first:
+      213: -3541386546398155145
+    second: GreyFlag_11
+  - first:
+      213: 3962788509622763212
+    second: GreyFlag_12
+  - first:
+      213: -749844424634147162
+    second: GreyFlag_13
+  - first:
+      213: -6705444895123534691
+    second: GreyFlag_14
+  - first:
+      213: -4398879592870039232
+    second: GreyFlag_15
+  - first:
+      213: -7126509972311945142
+    second: GreyFlag_16
+  - first:
+      213: -2220742562289850177
+    second: GreyFlag_17
+  - first:
+      213: -2495311836890973992
+    second: GreyFlag_18
+  - first:
+      213: -2294267452227200569
+    second: GreyFlag_19
+  - first:
+      213: -1377419160163062195
+    second: GreyFlag_20
+  - first:
+      213: -8463389478178986502
+    second: GreyFlag_21
+  - first:
+      213: 3879404958210531617
+    second: GreyFlag_22
+  - first:
+      213: 1518423208000390966
+    second: GreyFlag_23
+  - first:
+      213: 3224634805072776400
+    second: GreyFlag_24
+  - first:
+      213: 3652787287565204084
+    second: GreyFlag_25
+  - first:
+      213: 8189534218190811873
+    second: GreyFlag_26
+  - first:
+      213: 8941516650964658959
+    second: GreyFlag_27
+  - first:
+      213: -5684361426231332528
+    second: GreyFlag_28
+  - first:
+      213: -5858589741007721090
+    second: GreyFlag_29
+  - first:
+      213: 6923332128977347539
+    second: GreyFlag_30
+  - first:
+      213: -6681606505677535827
+    second: GreyFlag_31
+  - first:
+      213: 6650203072120817318
+    second: GreyFlag_32
+  - first:
+      213: -8888471237807599972
+    second: GreyFlag_33
+  - first:
+      213: 1660129498830711672
+    second: GreyFlag_34
+  - first:
+      213: -991213782492492039
+    second: GreyFlag_35
+  - first:
+      213: -1304887948026339535
+    second: GreyFlag_36
+  - first:
+      213: 612647349095923663
+    second: GreyFlag_37
+  - first:
+      213: 7402519667826054417
+    second: GreyFlag_38
+  - first:
+      213: -5839386136709023469
+    second: GreyFlag_39
+  - first:
+      213: -2826538399188896469
+    second: GreyFlag_40
+  - first:
+      213: 1205412355391505171
+    second: GreyFlag_41
+  - first:
+      213: -2876881321643727517
+    second: GreyFlag_42
+  - first:
+      213: -4196876367300295371
+    second: GreyFlag_43
+  - first:
+      213: 1071244281025471758
+    second: GreyFlag_44
+  - first:
+      213: -95185401891011720
+    second: GreyFlag_45
+  - first:
+      213: -5625167558961737904
+    second: GreyFlag_46
+  - first:
+      213: 5170638845114032318
+    second: GreyFlag_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreyFlag_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 72
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b96867aa74f84a50800000000000000
+      internalID: 6505718469368506800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyFlag_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 72
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a82e281ee53b4530800000000000000
+      internalID: 3840222403987646628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyFlag_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 72
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47535e65d5c0a210800000000000000
+      internalID: 1342290209426069327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyFlag_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 36
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9cb5ad3e4d61020800000000000000
+      internalID: 2312269533787441583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyFlag_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 36
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8517fecf4603200800000000000000
+      internalID: 157737024469686460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyFlag_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 36
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31176d99b1cd93cf0800000000000000
+      internalID: -271944291376008941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyFlag_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3628dc18053c24180800000000000000
+      internalID: -9132522343811415453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyFlag_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd84e2190db6b6630800000000000000
+      internalID: 3921346444089247967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

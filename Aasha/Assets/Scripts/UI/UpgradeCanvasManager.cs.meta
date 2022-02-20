@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 03af6aadcf0e1774aaefe19d222888ed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - titleText: {instanceID: 0}
+  - infoText: {instanceID: 0}
+  - continueText: {instanceID: 0}
+  - upgradeIcon: {instanceID: 0}
+  - wallJump: {fileID: -8532610571034390632, guid: 20178217cecd24a47bdf5a28f1a16b8f,
+      type: 3}
+  - jumpBoost: {fileID: 1404663891732049799, guid: 20178217cecd24a47bdf5a28f1a16b8f,
+      type: 3}
+  - speedBoost: {fileID: 648116203196267648, guid: 20178217cecd24a47bdf5a28f1a16b8f,
+      type: 3}
+  - doubleJump: {fileID: -6786440202412382554, guid: 20178217cecd24a47bdf5a28f1a16b8f,
+      type: 3}
+  - dash: {fileID: 8374516947688514104, guid: 20178217cecd24a47bdf5a28f1a16b8f, type: 3}
+  - heart: {fileID: 1087947991333037643, guid: 20178217cecd24a47bdf5a28f1a16b8f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
