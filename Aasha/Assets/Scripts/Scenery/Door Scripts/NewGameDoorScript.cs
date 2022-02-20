@@ -18,7 +18,7 @@ public class NewGameDoorScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && inDoor)
+        if (inDoor && PlayerMovement.instance.interact)
         {
             UniversalScript.instance.ResetData();
             SceneManager.LoadSceneAsync(3);

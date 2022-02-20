@@ -18,7 +18,10 @@ public class QuitGameDoorScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && inDoor) Application.Quit();
+        if (inDoor && PlayerMovement.instance.interact)
+        {
+            Application.Quit();
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)

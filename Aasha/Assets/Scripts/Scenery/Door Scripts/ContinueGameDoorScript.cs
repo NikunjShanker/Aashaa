@@ -18,8 +18,10 @@ public class ContinueGameDoorScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && inDoor)
-            if(UniversalScript.instance.savedSceneIndex != 1) SceneManager.LoadSceneAsync(UniversalScript.instance.savedSceneIndex);
+        if (inDoor && PlayerMovement.instance.interact)
+        {
+            if (UniversalScript.instance.savedSceneIndex != 1) SceneManager.LoadSceneAsync(UniversalScript.instance.savedSceneIndex);
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public bool dashCooldown;
 
     public bool playerActive;
+    public bool interact;
 
     private void Awake()
     {
@@ -32,21 +34,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (playerActive)
         {
-            // Get direction pressed on keyboard
+            // Get direction
             horizontalMove = runSpeed * Input.GetAxisRaw("Horizontal");
-            jump = Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W);
-
-            if ((Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.K)) && !dashCooldown)
-            {
-                CharacterController2D.instance.Dash();
-                dashCooldown = true;
-                StartCoroutine(dashCountdown());
-            }
         }
         else
         {
             horizontalMove = 0f;
-            jump = false;
         }
     }
 
@@ -61,6 +54,57 @@ public class PlayerMovement : MonoBehaviour
 
         // Move Aasha
         CharacterController2D.instance.Move(horizontalMove * Time.fixedDeltaTime, jump);
+    }
+
+    public void Jump(InputAction.CallbackContext context)
+    {
+        if(context.performed && playerActive)
+        {
+            jump = true;
+        }
+        else
+        {
+            jump = false;
+        }
+    }
+
+    public void Interact(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            interact = true;
+        }
+        else
+        {
+            interact = false;
+        }
+    }
+
+    public void Dash(InputAction.CallbackContext context)
+    {
+        if (context.performed && playerActive && !dashCooldown)
+        {
+            CharacterController2D.instance.Dash();
+            dashCooldown = true;
+            StartCoroutine(dashCountdown());
+        }
+    }
+
+    public void Restart(InputAction.CallbackContext context)
+    {
+        if (context.performed && SceneManager.GetActiveScene().name != "Main Menu")
+        {
+            PlayerHealth.ph.removeHealth(PlayerHealth.ph.maxHealth);
+        }
+    }
+
+    public void Escape(InputAction.CallbackContext context)
+    {
+        if (context.performed && SceneManager.GetActiveScene().buildIndex != 1)
+        {
+            UniversalScript.instance.savedPos = instance.transform.position;
+            SceneManager.LoadSceneAsync(1);
+        }
     }
 
     public void SpawnPlayer()

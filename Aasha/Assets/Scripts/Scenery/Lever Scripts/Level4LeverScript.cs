@@ -29,7 +29,7 @@ public class Level4LeverScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X) && playerEntered && !leverAnim.GetBool("push"))
+        if (PlayerMovement.instance.interact && playerEntered && !leverAnim.GetBool("push"))
         {
             if (this.name.Substring(this.name.Length - 1) == "1")
             {

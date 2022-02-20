@@ -16,7 +16,7 @@ public class EndLevelDoorScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && inDoor)
+        if (inDoor && PlayerMovement.instance.interact)
         {
             UniversalScript.instance.savedPos = new Vector3(0, -1.8f, 0);
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);

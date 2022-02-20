@@ -47,7 +47,7 @@ public class UpgradeCanvasManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && titleText.text != "Upgrade Name")
+        if (PlayerMovement.instance.interact && titleText.text != "Upgrade Name")
         {
             if (canvasTimerSatisfied)
             {

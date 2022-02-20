@@ -28,17 +28,6 @@ public class UniversalScript : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.R) && SceneManager.GetActiveScene().name != "Main Menu") PlayerHealth.ph.removeHealth(PlayerHealth.ph.maxHealth);
-
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            if (SceneManager.GetActiveScene().buildIndex != 1)
-            {
-                savedPos = PlayerMovement.instance.transform.position;
-                SceneManager.LoadSceneAsync(1);
-            }
-        }
-
         // Remove the following when game is finished and ready to be released
         if (Input.GetKey(KeyCode.Alpha5)) SceneManager.LoadSceneAsync(5);
         if (Input.GetKey(KeyCode.Alpha6)) SceneManager.LoadSceneAsync(6);
