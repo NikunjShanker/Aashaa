@@ -82,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Dash(InputAction.CallbackContext context)
     {
-        if (context.performed && playerActive && !dashCooldown)
+        if (context.started && playerActive && !dashCooldown)
         {
             CharacterController2D.instance.Dash();
             dashCooldown = true;

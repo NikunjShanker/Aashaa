@@ -29,9 +29,10 @@ public class UniversalScript : MonoBehaviour
     private void Update()
     {
         // Remove the following when game is finished and ready to be released
+        if (Input.GetKey(KeyCode.Alpha4)) SceneManager.LoadSceneAsync(4);
         if (Input.GetKey(KeyCode.Alpha5)) SceneManager.LoadSceneAsync(5);
         if (Input.GetKey(KeyCode.Alpha6)) SceneManager.LoadSceneAsync(6);
-        if (Input.GetKey(KeyCode.Alpha4)) SceneManager.LoadSceneAsync(4);
+        if (Input.GetKey(KeyCode.Alpha7)) SceneManager.LoadSceneAsync(7);
     }
 
     public void ResetData()
