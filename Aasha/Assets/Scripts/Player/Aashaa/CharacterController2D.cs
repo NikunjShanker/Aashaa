@@ -156,7 +156,7 @@ public class CharacterController2D : MonoBehaviour
 			}
 			else
             {
-				targetVelocity = new Vector2(transform.localScale.x * 275f, m_Rigidbody2D.velocity.y);
+				targetVelocity = new Vector2(transform.localScale.x * 250f, m_Rigidbody2D.velocity.y);
 			}
 			// And then smoothing it out and applying it to the character
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
