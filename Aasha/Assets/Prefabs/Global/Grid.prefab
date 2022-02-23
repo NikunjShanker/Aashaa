@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 5808963100838983173}
   - component: {fileID: 8417296003482861451}
   - component: {fileID: 2005056225647568016}
+  - component: {fileID: 1082825025090394749}
   m_Layer: 0
   m_Name: Liquids Tilemap
   m_TagString: Lava
@@ -409,6 +410,22 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!19719996 &1082825025090394749
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5808963100838983171}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &5808963101146263900
 GameObject:
   m_ObjectHideFlags: 0
