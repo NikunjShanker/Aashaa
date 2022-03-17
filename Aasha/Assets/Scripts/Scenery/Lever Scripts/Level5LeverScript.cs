@@ -97,7 +97,7 @@ public class Level5LeverScript : MonoBehaviour
 
         CameraShakeScript.shake.shakeCamera(1.5f, 1.75f);
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(3.5f);
 
         vcam.Follow = origFollow;
         vcam.LookAt = origFollow;
