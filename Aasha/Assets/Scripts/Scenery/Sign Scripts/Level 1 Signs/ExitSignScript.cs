@@ -23,7 +23,7 @@ public class ExitSignScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            signText.text = "The dungeon's exit is behind this door!...\nToo bad it's behind many... many... many doors.\nOh dear, good luck.";
+            signText.text = "Hidden somewhere on each floor, there is an exit door which will take you further up. To find your escape, you must brave every floor of this dungeon.";
 
             offDir.Stop();
             onDir.Play();

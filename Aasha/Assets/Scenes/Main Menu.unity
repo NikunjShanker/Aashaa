@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -20854,7 +20854,7 @@ Transform:
   - {fileID: 1312568711}
   - {fileID: 8780880504655945768}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &618290757774603862
 Transform:
@@ -25809,7 +25809,7 @@ Transform:
   - {fileID: 954192976}
   - {fileID: 461548766}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1403094581089761386
 SpriteRenderer:
@@ -26054,6 +26054,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 3aef2e58-aba4-422c-97de-1db7ed1c60b8
     m_ActionName: Gameplay/Interact[/XInputControllerWindows/buttonEast,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 24dec37e-7f31-48fd-96dc-bf0d5d1fe4bb
+    m_ActionName: Gameplay/Restart[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9556b9b7-fc75-4016-ad56-305f88aca5c3
+    m_ActionName: Gameplay/Escape[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
@@ -26406,7 +26414,7 @@ RectTransform:
   - {fileID: 2069865859118156464}
   - {fileID: 1566683859}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -32578,7 +32586,7 @@ Transform:
   - {fileID: 5151844421303324083}
   - {fileID: 5151844422493866466}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5151844422493866465
 MonoBehaviour:
@@ -41149,7 +41157,7 @@ Transform:
   - {fileID: 5808963100920397920}
   - {fileID: 8706556445830545977}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5808963101497728791
 GameObject:
@@ -46905,7 +46913,7 @@ RectTransform:
   - {fileID: 4739823462749545562}
   - {fileID: 4739823462368875136}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
