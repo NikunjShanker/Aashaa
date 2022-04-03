@@ -29,7 +29,7 @@ public class QuitGameDoorScript : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             doorAnim.SetBool("open", true);
-            spaceBarObject.position = new Vector3(this.transform.position.x, this.transform.position.y + 1.5f, 0);
+            spaceBarObject.position = new Vector3(this.transform.position.x, this.transform.position.y - 1.5f, 0);
             inDoor = true;
         }
     }
