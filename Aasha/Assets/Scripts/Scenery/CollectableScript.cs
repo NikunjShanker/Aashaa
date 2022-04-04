@@ -40,21 +40,21 @@ public class CollectableScript : MonoBehaviour
             {
                 controller.canDoubleJump = true;
                 UpgradeCanvasManager.instance.titleText.text = "Double Jump";
-                UpgradeCanvasManager.instance.infoText.text = "Press -W- while in the air to Double Jump";
+                UpgradeCanvasManager.instance.infoText.text = "Press the jump button while in the air to Double Jump";
                 UpgradeCanvasManager.instance.upgradeIcon.sprite = UpgradeCanvasManager.instance.doubleJump;
             }
             else if (this.gameObject.name == "Dash")
             {
                 controller.canDash = true;
                 UpgradeCanvasManager.instance.titleText.text = "Dash";
-                UpgradeCanvasManager.instance.infoText.text = "Press -K- or Right Click on the ground or in the air to Dash";
+                UpgradeCanvasManager.instance.infoText.text = "Press -K- or Right Click to Dash\nDashing is possible on the ground and midair";
                 UpgradeCanvasManager.instance.upgradeIcon.sprite = UpgradeCanvasManager.instance.dash;
             }
             else if (this.gameObject.name == "Wall Jump")
             {
                 controller.canWallJump = true;
                 UpgradeCanvasManager.instance.titleText.text = "Wall Jump";
-                UpgradeCanvasManager.instance.infoText.text = "Press -W- while in contact with a wall to Wall Jump";
+                UpgradeCanvasManager.instance.infoText.text = "Press the jump button while in contact with a wall to Wall Jump";
                 UpgradeCanvasManager.instance.upgradeIcon.sprite = UpgradeCanvasManager.instance.wallJump;
             }
             else if (this.gameObject.name == "Jump Boost")
