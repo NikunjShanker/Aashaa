@@ -33,6 +33,8 @@ public class UniversalScript : MonoBehaviour
         if (Input.GetKey(KeyCode.Alpha5)) SceneManager.LoadSceneAsync(5);
         if (Input.GetKey(KeyCode.Alpha6)) SceneManager.LoadSceneAsync(6);
         if (Input.GetKey(KeyCode.Alpha7)) SceneManager.LoadSceneAsync(7);
+        if (Input.GetKey(KeyCode.Alpha8)) SceneManager.LoadSceneAsync(8);
+        if (Input.GetKey(KeyCode.Alpha9)) SceneManager.LoadSceneAsync(9);
     }
 
     public void ResetData()
