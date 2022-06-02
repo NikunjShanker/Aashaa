@@ -101,11 +101,11 @@ public class Level6LeverScript : MonoBehaviour
 
         pmController.playerActive = false;
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1.5f);
 
         CameraShakeScript.shake.shakeCamera(1.5f, 1.75f);
 
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(3f);
 
         vcam.Follow = origFollow;
         vcam.LookAt = origFollow;
@@ -125,11 +125,11 @@ public class Level6LeverScript : MonoBehaviour
 
         pmController.playerActive = false;
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1.5f);
 
         CameraShakeScript.shake.shakeCamera(1.5f, 1.75f);
 
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(3f);
 
         vcam.Follow = origFollow;
         vcam.LookAt = origFollow;
@@ -149,11 +149,11 @@ public class Level6LeverScript : MonoBehaviour
 
         pmController.playerActive = false;
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1.5f);
 
         CameraShakeScript.shake.shakeCamera(1.5f, 1.75f);
 
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(3f);
 
         vcam.Follow = origFollow;
         vcam.LookAt = origFollow;
