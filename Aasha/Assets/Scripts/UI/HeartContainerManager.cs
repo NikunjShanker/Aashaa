@@ -62,7 +62,7 @@ public class HeartContainerManager : MonoBehaviour
     }
     public void loseHeartPartSys()
     {
-        if(health > 0)
+        if(health >= 0)
         {
             loseHeartPS.transform.position = hearts[health - 1].transform.position;
 
