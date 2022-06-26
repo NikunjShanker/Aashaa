@@ -45,11 +45,6 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void increaseHealth(int amount)
-    {
-        health += amount;
-    }
-
     public void heartContainerCollected()
     {
         StartCoroutine(gainHeart());
@@ -65,9 +60,15 @@ public class PlayerHealth : MonoBehaviour
     {
         HeartContainerManager.instance.gainHeartPartSys();
 
-        if (maxHealth < 12) maxHealth++;
-
         yield return new WaitForSeconds(0.38f);
+
+        maxHealth = 3;
+
+        for(int i = UniversalScript.instance.heartGained.Length-1; i >= 0; i--)
+        {
+            if (UniversalScript.instance.heartGained[i])
+                maxHealth++;
+        }
 
         health = maxHealth;
     }

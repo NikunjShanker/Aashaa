@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 using UnityEngine.SceneManagement;
 
 public class UniversalScript : MonoBehaviour
@@ -23,7 +24,14 @@ public class UniversalScript : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
 
-        ResetData();
+        if (File.Exists(Application.persistentDataPath + "/game.aashafile"))
+        {
+            LoadGameData();
+        }
+        else
+        {
+            ResetData();
+        }
     }
 
     private void Update()
@@ -59,5 +67,22 @@ public class UniversalScript : MonoBehaviour
         canDash = CharacterController2D.instance.canDash;
         jumpBoost = CharacterController2D.instance.jumpIncrease;
         speedBoost = CharacterController2D.instance.speedIncrease;
+
+        SaveSystem.SaveGame(this);
+    }
+
+    public void LoadGameData()
+    {
+        GameData data = SaveSystem.LoadPlayer();
+
+        savedPos = new Vector3(data.savedPos[0], data.savedPos[1], data.savedPos[2]);
+        savedSceneIndex = data.savedSceneIndex;
+        maxHealth = data.maxHealth;
+        heartGained = data.heartGained;
+        canDoubleJump = data.canDoubleJump;
+        canWallJump = data.canWallJump;
+        canDash = data.canDash;
+        jumpBoost = data.jumpBoost;
+        speedBoost = data.speedBoost;
     }
 }

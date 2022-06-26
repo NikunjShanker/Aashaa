@@ -20,6 +20,7 @@ public class QuitGameDoorScript : MonoBehaviour
     {
         if (inDoor && PlayerMovement.instance.interact)
         {
+            SaveSystem.SaveGame(UniversalScript.instance);
             Application.Quit();
         }
     }
