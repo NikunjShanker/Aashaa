@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerAnimationController : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class PlayerAnimationController : MonoBehaviour
     private Color normalPlayerColor;
 
     private ParticleSystem bloodPS;
+
+    private TextMeshProUGUI deathCounterText;
 
     private PlayableDirector fadeOut;
     private PlayableDirector fadeIn;
@@ -30,8 +34,22 @@ public class PlayerAnimationController : MonoBehaviour
 
         bloodPS = GameObject.Find("/Aashaa/Blood PS").GetComponent<ParticleSystem>();
 
+        if(SceneManager.GetActiveScene().name.Substring(0,5) == "Level")
+        {
+            deathCounterText = GameObject.Find("Death Counter Text").GetComponent<TextMeshProUGUI>();
+        }
+        else
+        {
+            deathCounterText = null;
+        }
+
         fadeOut = GameObject.Find("/Timeline/Fade Out").GetComponentInChildren<PlayableDirector>();
         fadeIn = GameObject.Find("/Timeline/Fade In").GetComponentInChildren<PlayableDirector>();
+    }
+
+    private void Update()
+    {
+        if(deathCounterText!=null) deathCounterText.text = "Deaths: " + UniversalScript.instance.deathCounter;
     }
 
     public void setRun(bool r)
@@ -46,6 +64,7 @@ public class PlayerAnimationController : MonoBehaviour
 
     public IEnumerator playerDied()
     {
+        fadeIn.Stop();
         fadeOut.Play();
         bloodPS.Play();
 
@@ -60,5 +79,7 @@ public class PlayerAnimationController : MonoBehaviour
 
         PlayerHealth.ph.health = PlayerHealth.ph.maxHealth;
         fadeIn.Play();
+        UniversalScript.instance.deathCounter++;
+        PlayerHealth.ph.dieOnce = !PlayerHealth.ph.dieOnce;
     }
 }

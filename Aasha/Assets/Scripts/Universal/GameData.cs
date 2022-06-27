@@ -8,6 +8,7 @@ public class GameData
     public float[] savedPos;
     public int savedSceneIndex;
     public int maxHealth;
+    public int deathCounter;
     public bool[] heartGained;
     public bool canDoubleJump;
     public bool canWallJump;
@@ -24,6 +25,7 @@ public class GameData
 
         savedSceneIndex = script.savedSceneIndex;
         maxHealth = script.maxHealth;
+        deathCounter = script.deathCounter;
         heartGained = new bool[9];
         heartGained = script.heartGained;
         canDoubleJump = script.canDoubleJump;

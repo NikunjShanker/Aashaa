@@ -62,19 +62,23 @@ public class HeartContainerManager : MonoBehaviour
     }
     public void loseHeartPartSys()
     {
-        if(health >= 0)
+        if(health > 0)
         {
             loseHeartPS.transform.position = hearts[health - 1].transform.position;
+        }
+        else
+        {
+            loseHeartPS.transform.position = hearts[0].transform.position;
+        }
 
-            if (loseHeartPS.isPlaying)
-            {
-                loseHeartPS.Stop();
-                loseHeartPS.Play();
-            }
-            else
-            {
-                loseHeartPS.Play();
-            }
+        if (loseHeartPS.isPlaying)
+        {
+            loseHeartPS.Stop();
+            loseHeartPS.Play();
+        }
+        else
+        {
+            loseHeartPS.Play();
         }
     }
 

@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
 
     public int health;
     public int maxHealth;
+    public bool dieOnce;
 
     void Awake()
     {
@@ -21,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
 
         maxHealth = UniversalScript.instance.maxHealth;
         health = maxHealth;
+        dieOnce = false;
 
         if (SceneManager.GetActiveScene().name == "Main Menu") maxHealth = 0;
     }
@@ -29,19 +31,25 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= damage;
 
-        if (health <= 0)
+        if(!dieOnce)
         {
-            StartCoroutine(PlayerAnimationController.instance.playerDied());
-        }
-        else
-        {
-            StartCoroutine(redTint());
-            
-            if(controller.jumpNum == 0) controller.jumpNum = 1;
+            if (health <= 0)
+            {
+                if(damage == 1) HeartContainerManager.instance.loseHeartPartSys();
 
-            controller.PushBack();
+                dieOnce = true;
+                StartCoroutine(PlayerAnimationController.instance.playerDied());
+            }
+            else
+            {
+                StartCoroutine(redTint());
 
-            HeartContainerManager.instance.loseHeartPartSys();
+                if (controller.jumpNum == 0) controller.jumpNum = 1;
+
+                controller.PushBack();
+
+                HeartContainerManager.instance.loseHeartPartSys();
+            }
         }
     }
 
