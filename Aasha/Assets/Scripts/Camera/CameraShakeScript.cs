@@ -32,6 +32,7 @@ public class CameraShakeScript : MonoBehaviour
         startingIntensity = intensity;
         totalShakeTime = timer;
         shakeTime = timer;
+        AudioManagerScript.instance.Play("earthquake");
     }
 
     private void Update()
@@ -44,6 +45,7 @@ public class CameraShakeScript : MonoBehaviour
             {
                 perlin.m_AmplitudeGain = 0f;
                 Mathf.Lerp(startingIntensity, 0f, 1 - (shakeTime / totalShakeTime));
+                AudioManagerScript.instance.Stop("earthquake");
             }
         }
     }

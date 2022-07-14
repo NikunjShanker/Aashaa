@@ -20,6 +20,11 @@ public class RespawnPointScript : MonoBehaviour
             {
                 respawnPS.transform.position = this.transform.position;
                 respawnPS.Play();
+
+                if(!respawnPS.GetComponent<AudioSource>().isPlaying)
+                {
+                    respawnPS.GetComponent<AudioSource>().Play();
+                }
             }
 
             PlayerMovement.instance.respawnPoint = this.transform.position;

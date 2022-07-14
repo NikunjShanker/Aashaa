@@ -118,6 +118,7 @@ public class CharacterController2D : MonoBehaviour
 					Flip();
 				}
 			}
+
 			// If the player should jump...
 			if (jump && jumpNum != 0 && !jumpCooldown)
 			{
@@ -135,11 +136,23 @@ public class CharacterController2D : MonoBehaviour
 				}
 				else m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 
+				AudioManagerScript.instance.sounds[4].pitch = Random.Range(1.2f, 1.4f);
+				AudioManagerScript.instance.Play("jump");
+
 				jumpNum--;
 				m_Grounded = false;
 				jumpCooldown = true;
 				createDust();
 				StartCoroutine(jumpCountdown());
+			}
+
+			if(m_Grounded && move != 0)
+            {
+				AudioManagerScript.instance.Play("run");
+            }
+			else
+            {
+				AudioManagerScript.instance.Stop("run");
 			}
 		}
 	}
@@ -158,6 +171,9 @@ public class CharacterController2D : MonoBehaviour
             {
 				targetVelocity = new Vector2(transform.localScale.x * 250f, m_Rigidbody2D.velocity.y);
 			}
+
+			AudioManagerScript.instance.Play("dash");
+
 			// And then smoothing it out and applying it to the character
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 			StartCoroutine(dashCountdown());

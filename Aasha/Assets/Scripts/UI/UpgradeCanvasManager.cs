@@ -64,6 +64,7 @@ public class UpgradeCanvasManager : MonoBehaviour
         offDir.Stop();
         onDir.Play();
         pmController.playerActive = false;
+
         StartCoroutine(timelineTimer());
     }
 

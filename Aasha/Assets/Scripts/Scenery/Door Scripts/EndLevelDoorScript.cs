@@ -30,6 +30,9 @@ public class EndLevelDoorScript : MonoBehaviour
             doorAnim.SetBool("open", true);
 
             inDoor = true;
+
+            AudioManagerScript.instance.End("door close");
+            AudioManagerScript.instance.Play("door open");
         }
     }
 
@@ -40,6 +43,9 @@ public class EndLevelDoorScript : MonoBehaviour
             doorAnim.SetBool("open", false);
 
             inDoor = false;
+
+            AudioManagerScript.instance.End("door open");
+            AudioManagerScript.instance.Play("door close");
         }
     }
 }

@@ -32,6 +32,9 @@ public class QuitGameDoorScript : MonoBehaviour
             doorAnim.SetBool("open", true);
             spaceBarObject.position = new Vector3(this.transform.position.x, this.transform.position.y - 1.5f, 0);
             inDoor = true;
+
+            AudioManagerScript.instance.End("door close");
+            AudioManagerScript.instance.Play("door open");
         }
     }
 
@@ -42,6 +45,9 @@ public class QuitGameDoorScript : MonoBehaviour
             doorAnim.SetBool("open", false);
             spaceBarObject.position = new Vector3(50, 50, 0);
             inDoor = false;
+
+            AudioManagerScript.instance.End("door open");
+            AudioManagerScript.instance.Play("door close");
         }
     }
 }

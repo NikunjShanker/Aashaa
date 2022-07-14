@@ -35,7 +35,13 @@ public class PlayerHealth : MonoBehaviour
         {
             if (health <= 0)
             {
-                if(damage == 1) HeartContainerManager.instance.loseHeartPartSys();
+                if (damage == 1 || PlayerMovement.instance.restart)
+                {
+                    HeartContainerManager.instance.loseHeartPartSys();
+                    AudioManagerScript.instance.Play("blood splash");
+                    PlayerMovement.instance.restart = false;
+                }
+                else AudioManagerScript.instance.Play("lava");
 
                 dieOnce = true;
                 StartCoroutine(PlayerAnimationController.instance.playerDied());
@@ -47,6 +53,10 @@ public class PlayerHealth : MonoBehaviour
                 if (controller.jumpNum == 0) controller.jumpNum = 1;
 
                 controller.PushBack();
+
+                AudioManagerScript.instance.End("ouch");
+                AudioManagerScript.instance.sounds[5].pitch = Random.Range(0.8f, 1.0f);
+                AudioManagerScript.instance.Play("ouch");
 
                 HeartContainerManager.instance.loseHeartPartSys();
             }

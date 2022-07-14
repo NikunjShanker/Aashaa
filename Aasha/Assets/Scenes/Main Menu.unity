@@ -11424,6 +11424,178 @@ Transform:
   m_Father: {fileID: 1403094581089761385}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1227829362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1227829363}
+  - component: {fileID: 1227829364}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1227829363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227829362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1227829364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227829362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12852eefe6c55b44b570a4b2e6a524a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: buzzsaw
+    clip: {fileID: 8300000, guid: ce59e00331c98d94dbd54a6039416a59, type: 3}
+    volume: 1
+    pitch: 1
+    priority: 132
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: dash
+    clip: {fileID: 8300000, guid: c2a2da5f7dd175d4a9242f41014b7c0f, type: 3}
+    volume: 0.6
+    pitch: 1
+    priority: 124
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: earthquake
+    clip: {fileID: 8300000, guid: cfda11176f7ef8d46a465ca3bf1b06fa, type: 3}
+    volume: 10
+    pitch: 1
+    priority: 128
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: fire
+    clip: {fileID: 8300000, guid: 12dcf96cfd9a30949b71a9834f6e023d, type: 3}
+    volume: 1
+    pitch: 1.6
+    priority: 132
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: jump
+    clip: {fileID: 8300000, guid: c2d534f1b6965374f81272adb70b0296, type: 3}
+    volume: 0.9
+    pitch: 1.3
+    priority: 124
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: ouch
+    clip: {fileID: 8300000, guid: 5c7e8612bbf3dfc4aa724824e8803cb0, type: 3}
+    volume: 1
+    pitch: 0.9
+    priority: 124
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: run
+    clip: {fileID: 8300000, guid: a2ebcdda10b2c634fba31cbf0fae51a0, type: 3}
+    volume: 1.6
+    pitch: 1
+    priority: 120
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: solemn ambience
+    clip: {fileID: 8300000, guid: 695e3bd6bf9e4a24ea8eed9f4e0f202f, type: 3}
+    volume: 0.25
+    pitch: 1
+    priority: 136
+    mute: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: dungeon ambience
+    clip: {fileID: 8300000, guid: 79b8d769222209d4bbc22e73853cfe9f, type: 3}
+    volume: 0.25
+    pitch: 1
+    priority: 136
+    mute: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: dungeon ambience V2
+    clip: {fileID: 8300000, guid: 47e5abad73bb60e4996b2a00f94eb771, type: 3}
+    volume: 0.25
+    pitch: 1
+    priority: 136
+    mute: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: dungeon ambience 2
+    clip: {fileID: 8300000, guid: cefd088faf73c48409d9a841b2b872e9, type: 3}
+    volume: 0.25
+    pitch: 1
+    priority: 136
+    mute: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: upgrade
+    clip: {fileID: 8300000, guid: afcdcd385ebe8f04ca4af2554ec7d77e, type: 3}
+    volume: 1
+    pitch: 1
+    priority: 128
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: blood splash
+    clip: {fileID: 8300000, guid: 6201440c7be687141a86cd499a339020, type: 3}
+    volume: 0.5
+    pitch: 0.85
+    priority: 132
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: lava
+    clip: {fileID: 8300000, guid: cd697e5c05bd6f246b04933cee1794fc, type: 3}
+    volume: 0.8
+    pitch: 1
+    priority: 128
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: door open
+    clip: {fileID: 8300000, guid: eb2bba4b752a82444b866e618de0f4cc, type: 3}
+    volume: 0.3
+    pitch: 1
+    priority: 132
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: door close
+    clip: {fileID: 8300000, guid: ba2bd89460bd60a4a9fddfec2ac6f196, type: 3}
+    volume: 0.4
+    pitch: 1
+    priority: 132
+    mute: 0
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &1261119204
 GameObject:
   m_ObjectHideFlags: 0
@@ -21304,6 +21476,7 @@ MonoBehaviour:
   playerSprite: {fileID: 1403094581089761386}
   health: 0
   maxHealth: 0
+  dieOnce: 0
 --- !u!1 &1979837771
 GameObject:
   m_ObjectHideFlags: 0
@@ -26493,6 +26666,7 @@ MonoBehaviour:
   dashCooldown: 0
   playerActive: 1
   interact: 0
+  restart: 0
 --- !u!61 &1403094581089761389
 BoxCollider2D:
   m_ObjectHideFlags: 0

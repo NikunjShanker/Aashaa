@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     public bool playerActive;
     public bool interact;
+    public bool restart;
 
     private void Awake()
     {
@@ -46,7 +47,9 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         if (horizontalMove != 0)
+        {
             PlayerAnimationController.instance.setRun(true);
+        }
         else
         {
             PlayerAnimationController.instance.setRun(false);
@@ -94,6 +97,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (context.performed && SceneManager.GetActiveScene().name != "Main Menu")
         {
+            restart = true;
             PlayerHealth.ph.removeHealth(PlayerHealth.ph.maxHealth);
         }
     }

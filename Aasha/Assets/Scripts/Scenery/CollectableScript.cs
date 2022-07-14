@@ -76,6 +76,7 @@ public class CollectableScript : MonoBehaviour
             UpgradeCanvasManager.instance.UpgradeCollected();
             UniversalScript.instance.SaveData();
             explosionPS.Play();
+            AudioManagerScript.instance.Play("upgrade");
 
             GameObject.Destroy(this.gameObject);
         }
