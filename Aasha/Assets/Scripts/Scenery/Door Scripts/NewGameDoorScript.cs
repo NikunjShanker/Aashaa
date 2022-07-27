@@ -21,7 +21,7 @@ public class NewGameDoorScript : MonoBehaviour
         if (inDoor && PlayerMovement.instance.interact)
         {
             UniversalScript.instance.ResetData();
-            SceneManager.LoadSceneAsync(3);
+            SceneManager.LoadSceneAsync(2);
         }
     }
 

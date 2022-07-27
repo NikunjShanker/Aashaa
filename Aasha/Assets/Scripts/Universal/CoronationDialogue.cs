@@ -8,4 +8,5 @@ public class CoronationDialogue
     public string phrase;
     public int font;
     public bool quirky;
+    public bool center;
 }

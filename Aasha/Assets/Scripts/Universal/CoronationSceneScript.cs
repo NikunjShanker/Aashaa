@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Playables;
 using UnityEngine.InputSystem;
 
 public class CoronationSceneScript : MonoBehaviour
@@ -78,11 +79,32 @@ public class CoronationSceneScript : MonoBehaviour
         StartCoroutine(displayDialogue());
     }
 
+    public void groundShake()
+    {
+        CameraShakeScript.shake.shakeCamera(1.5f, 4.1f);
+    }
+
     private void nextEvent()
     {
-        StopAllCoroutines();
-        dialogueIndex++;
-        StartCoroutine(displayDialogue());
+        if(dialogueIndex < 21)
+        {
+            StopAllCoroutines();
+            dialogueIndex++;
+            StartCoroutine(displayDialogue());
+        }
+        else
+        {
+            GameObject.Find("Ground Breaks").GetComponent<PlayableDirector>().Play();
+
+            rajaBubble.SetActive(false);
+            aashaaBubble.SetActive(false);
+            bakwasBubble.SetActive(false);
+            textMesh = null;
+
+            rajaSpeech.text = "";
+            aashaaSpeech.text = "";
+            bakwasSpeech.text = "";
+        }
     }
 
     IEnumerator displayDialogue()
@@ -92,12 +114,24 @@ public class CoronationSceneScript : MonoBehaviour
         bakwasBubble.SetActive(false);
         textMesh = null;
 
+        rajaSpeech.text = "";
+        aashaaSpeech.text = "";
+        bakwasSpeech.text = "";
+
         rajaSpeech.fontSize = aashaaSpeech.fontSize = bakwasSpeech.fontSize = dialogue[dialogueIndex].font;
+
+        if(dialogue[dialogueIndex].center)
+        {
+            rajaSpeech.alignment = aashaaSpeech.alignment = bakwasSpeech.alignment = TextAlignmentOptions.Midline;
+        }
+        else
+        {
+            rajaSpeech.alignment = aashaaSpeech.alignment = bakwasSpeech.alignment = TextAlignmentOptions.MidlineLeft;
+        }
 
         if (dialogue[dialogueIndex].name == "Raja")
         {
             rajaBubble.SetActive(true);
-            rajaSpeech.text = "";
 
             if(dialogue[dialogueIndex].quirky)
             {
@@ -114,7 +148,6 @@ public class CoronationSceneScript : MonoBehaviour
         else if (dialogue[dialogueIndex].name == "Aashaa")
         {
             aashaaBubble.SetActive(true);
-            aashaaSpeech.text = "";
 
             if(dialogue[dialogueIndex].quirky)
             {
@@ -131,7 +164,6 @@ public class CoronationSceneScript : MonoBehaviour
         else if (dialogue[dialogueIndex].name == "Bakwas")
         {
             bakwasBubble.SetActive(true);
-            bakwasSpeech.text = "";
 
             if(dialogue[dialogueIndex].quirky)
             {
