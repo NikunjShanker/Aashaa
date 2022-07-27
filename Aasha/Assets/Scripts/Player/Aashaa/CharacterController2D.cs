@@ -198,8 +198,6 @@ public class CharacterController2D : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
-		this.transform.Find("Dust PS").GetComponentInChildren<ParticleSystem>().gameObject.transform.localScale = theScale;
-		createDust();
 	}
 
 	private void createDust()

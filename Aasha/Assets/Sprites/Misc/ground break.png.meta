@@ -26,6 +26,9 @@ TextureImporter:
   - first:
       213: -3512747304278625828
     second: ground break_7
+  - first:
+      213: 3150783227150013481
+    second: ground break_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -126,12 +129,12 @@ TextureImporter:
       name: ground break_0
       rect:
         serializedVersion: 2
-        x: 18
+        x: 0
         y: 77
-        width: 9
-        height: 7
+        width: 52
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +150,12 @@ TextureImporter:
       name: ground break_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 66
-        width: 12
-        height: 8
+        width: 52
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +171,12 @@ TextureImporter:
       name: ground break_2
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 55
-        width: 15
-        height: 9
+        width: 52
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +192,12 @@ TextureImporter:
       name: ground break_3
       rect:
         serializedVersion: 2
-        x: 12
+        x: 0
         y: 44
-        width: 25
-        height: 9
+        width: 52
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +213,12 @@ TextureImporter:
       name: ground break_4
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 33
-        width: 41
-        height: 9
+        width: 52
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +234,12 @@ TextureImporter:
       name: ground break_5
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 22
-        width: 41
-        height: 9
+        width: 52
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,9 +258,9 @@ TextureImporter:
         x: 0
         y: 11
         width: 52
-        height: 10
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,7 +281,7 @@ TextureImporter:
         width: 52
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,6 +289,27 @@ TextureImporter:
       bones: []
       spriteID: cd1f2c620f6304fc0800000000000000
       internalID: -3512747304278625828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground break_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 84
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924198ac6a4d9bb20800000000000000
+      internalID: 3150783227150013481
       vertices: []
       indices: 
       edges: []
