@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: 207595904189575804
     second: Wall Jump Outlined
+  - first:
+      213: -9027971670256783922
+    second: Armor Outlined
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -238,6 +241,27 @@ TextureImporter:
       bones: []
       spriteID: c72bb0eff5781e200800000000000000
       internalID: 207595904189575804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armor Outlined
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 17
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecded00299336b280800000000000000
+      internalID: -9027971670256783922
       vertices: []
       indices: 
       edges: []

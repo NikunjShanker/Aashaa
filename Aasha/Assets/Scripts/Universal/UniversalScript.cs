@@ -42,6 +42,7 @@ public class UniversalScript : MonoBehaviour
     private void Update()
     {
         // Remove the following when game is finished and ready to be released
+        if (Input.GetKey(KeyCode.Alpha3)) SceneManager.LoadSceneAsync(3); savedPos = new Vector3(0, -1.8f, 0);
         if (Input.GetKey(KeyCode.Alpha4)) SceneManager.LoadSceneAsync(4); savedPos = new Vector3(0, -1.8f, 0);
         if (Input.GetKey(KeyCode.Alpha5)) SceneManager.LoadSceneAsync(5); savedPos = new Vector3(0, -1.8f, 0);
         if (Input.GetKey(KeyCode.Alpha6)) SceneManager.LoadSceneAsync(6); savedPos = new Vector3(0, -1.8f, 0);

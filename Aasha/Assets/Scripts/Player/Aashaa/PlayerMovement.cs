@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using UnityEngine.Playables;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -22,8 +23,12 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         if (instance == null) instance = this;
+    }
 
+    private void Start()
+    {
         playerActive = true;
+
         if (SceneManager.GetActiveScene().name != "Main Menu")
         {
             respawnPoint = UniversalScript.instance.savedPos;
@@ -33,6 +38,19 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // disable player controls if cutscene is playing
+        if (GameObject.Find("Beginning Cutscene") != null)
+        {
+            if (GameObject.Find("Beginning Cutscene").GetComponent<PlayableDirector>().state == PlayState.Playing || GameObject.Find("Aashaa Armor Cutscene").GetComponent<PlayableDirector>().state == PlayState.Playing)
+            {
+                playerActive = false;
+            }
+            else
+            {
+                playerActive = true;
+            }
+        }
+
         if (playerActive)
         {
             // Get direction
@@ -106,7 +124,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (context.performed && SceneManager.GetActiveScene().buildIndex != 1)
         {
-            UniversalScript.instance.savedPos = instance.transform.position;
+            UniversalScript.instance.savedPos = this.transform.position;
+            UniversalScript.instance.SaveData();
             SceneManager.LoadSceneAsync(1);
         }
     }

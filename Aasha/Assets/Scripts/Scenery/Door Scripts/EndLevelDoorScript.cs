@@ -8,16 +8,21 @@ public class EndLevelDoorScript : MonoBehaviour
     private Animator doorAnim;
     private bool inDoor;
 
+    private bool activateOnce;
+
     void Start()
     {
         doorAnim = GetComponent<Animator>();
         inDoor = false;
+
+        activateOnce = false;
     }
 
     void Update()
     {
-        if (inDoor && PlayerMovement.instance.interact)
+        if (inDoor && PlayerMovement.instance.interact && !activateOnce)
         {
+            activateOnce = true;
             UniversalScript.instance.savedPos = new Vector3(0, -1.8f, 0);
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
         }

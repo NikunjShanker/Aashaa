@@ -18,6 +18,8 @@ MonoImporter:
       type: 3}
   - dash: {fileID: 8374516947688514104, guid: 20178217cecd24a47bdf5a28f1a16b8f, type: 3}
   - heart: {fileID: 1087947991333037643, guid: 20178217cecd24a47bdf5a28f1a16b8f, type: 3}
+  - armor: {fileID: -2046054457978053147, guid: 20178217cecd24a47bdf5a28f1a16b8f,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

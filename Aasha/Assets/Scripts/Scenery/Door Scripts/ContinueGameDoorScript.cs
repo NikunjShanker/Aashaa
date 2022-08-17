@@ -9,17 +9,21 @@ public class ContinueGameDoorScript : MonoBehaviour
     private Animator doorAnim;
     private bool inDoor;
 
+    private bool activateOnce;
+
     void Start()
     {
         doorAnim = GetComponent<Animator>();
         spaceBarObject = GameObject.Find("Space Bar").GetComponent<Transform>();
         inDoor = false;
+        activateOnce = false;
     }
 
     void Update()
     {
-        if (inDoor && PlayerMovement.instance.interact)
+        if (inDoor && PlayerMovement.instance.interact && !activateOnce)
         {
+            activateOnce = true;
             if (UniversalScript.instance.savedSceneIndex != 1) SceneManager.LoadSceneAsync(UniversalScript.instance.savedSceneIndex);
         }
     }

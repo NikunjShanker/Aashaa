@@ -21,6 +21,7 @@ public class UpgradeCanvasManager : MonoBehaviour
     [SerializeField] public Sprite doubleJump;
     [SerializeField] public Sprite dash;
     [SerializeField] public Sprite heart;
+    [SerializeField] public Sprite armor;
 
     private PlayableDirector offDir;
     private PlayableDirector onDir;
@@ -55,6 +56,12 @@ public class UpgradeCanvasManager : MonoBehaviour
                 offDir.Play();
                 pmController.playerActive = true;
                 canvasTimerSatisfied = !canvasTimerSatisfied;
+
+                if(titleText.text == "Royal Armor")
+                {
+                    GameObject.Find("Aashaa Armor Cutscene").GetComponent<PlayableDirector>().Play();
+                    Destroy(GameObject.Find("Aashaa Dress"));
+                }
             }
         }
     }

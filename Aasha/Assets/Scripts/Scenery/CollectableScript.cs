@@ -82,6 +82,23 @@ public class CollectableScript : MonoBehaviour
         }
     }
 
+    public void armorCollected()
+    {
+        ParticleSystem explosionPS = GameObject.Find("Upgrade Pickup PS").GetComponent<ParticleSystem>();
+
+        UpgradeCanvasManager.instance.titleText.text = "Royal Armor";
+        UpgradeCanvasManager.instance.infoText.text = "An expertly crafted suit of armor designed for the strongest of warriors.";
+        UpgradeCanvasManager.instance.upgradeIcon.sprite = UpgradeCanvasManager.instance.armor;
+
+        UpgradeCanvasManager.instance.UpgradeCollected();
+        UniversalScript.instance.SaveData();
+        explosionPS.transform.position = this.transform.position;
+        explosionPS.Play();
+        AudioManagerScript.instance.Play("upgrade");
+
+        GameObject.Destroy(this.gameObject);
+    }
+
     private void validateCollectible()
     {
         if (this.tag == "Heart")

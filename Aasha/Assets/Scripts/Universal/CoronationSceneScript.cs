@@ -4,12 +4,14 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Playables;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class CoronationSceneScript : MonoBehaviour
 {
     public CoronationDialogue[] dialogue;
 
     private int dialogueIndex;
+    private bool dialogueFinished;
 
     private PlayerControls controls;
 
@@ -47,6 +49,7 @@ public class CoronationSceneScript : MonoBehaviour
         textMesh = null;
 
         dialogueIndex = 0;
+        dialogueFinished = false;
     }
 
     private void Update()
@@ -84,26 +87,61 @@ public class CoronationSceneScript : MonoBehaviour
         CameraShakeScript.shake.shakeCamera(1.5f, 4.1f);
     }
 
+    public void groundShook()
+    {
+        StopAllCoroutines();
+        dialogueIndex++;
+        StartCoroutine(displayDialogue());
+    }
+
+    public void changeScene()
+    {
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     private void nextEvent()
     {
-        if(dialogueIndex < 21)
+        if(dialogueFinished)
         {
-            StopAllCoroutines();
-            dialogueIndex++;
-            StartCoroutine(displayDialogue());
-        }
-        else
-        {
-            GameObject.Find("Ground Breaks").GetComponent<PlayableDirector>().Play();
+            if (dialogueIndex < 21)
+            {
+                StopAllCoroutines();
+                dialogueIndex++;
+                StartCoroutine(displayDialogue());
 
-            rajaBubble.SetActive(false);
-            aashaaBubble.SetActive(false);
-            bakwasBubble.SetActive(false);
-            textMesh = null;
+                if (dialogueIndex == 20)
+                {
+                    GameObject.Find("Bakwas Exit").GetComponent<PlayableDirector>().Play();
+                }
+            }
+            else if (dialogueIndex == 22)
+            {
+                StopAllCoroutines();
+                GameObject.Find("Aashaa Falls").GetComponent<PlayableDirector>().Play();
 
-            rajaSpeech.text = "";
-            aashaaSpeech.text = "";
-            bakwasSpeech.text = "";
+                rajaBubble.SetActive(false);
+                aashaaBubble.SetActive(false);
+                bakwasBubble.SetActive(false);
+                textMesh = null;
+
+                rajaSpeech.text = "";
+                aashaaSpeech.text = "";
+                bakwasSpeech.text = "";
+
+            }
+            else
+            {
+                GameObject.Find("Ground Breaks").GetComponent<PlayableDirector>().Play();
+
+                rajaBubble.SetActive(false);
+                aashaaBubble.SetActive(false);
+                bakwasBubble.SetActive(false);
+                textMesh = null;
+
+                rajaSpeech.text = "";
+                aashaaSpeech.text = "";
+                bakwasSpeech.text = "";
+            }
         }
     }
 
@@ -117,6 +155,8 @@ public class CoronationSceneScript : MonoBehaviour
         rajaSpeech.text = "";
         aashaaSpeech.text = "";
         bakwasSpeech.text = "";
+
+        dialogueFinished = false;
 
         rajaSpeech.fontSize = aashaaSpeech.fontSize = bakwasSpeech.fontSize = dialogue[dialogueIndex].font;
 
@@ -177,6 +217,8 @@ public class CoronationSceneScript : MonoBehaviour
                 yield return null;
             }
         }
+
+        dialogueFinished = true;
     }
 
     Vector2 Wobble(float time)
