@@ -31,7 +31,7 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= damage;
 
-        if(!dieOnce)
+        if(!dieOnce && playerSprite.color != new Color(0, 0, 0, 0))
         {
             if (health <= 0)
             {

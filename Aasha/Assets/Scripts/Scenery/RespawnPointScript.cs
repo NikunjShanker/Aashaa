@@ -21,7 +21,7 @@ public class RespawnPointScript : MonoBehaviour
                 respawnPS.transform.position = this.transform.position;
                 respawnPS.Play();
 
-                if(!respawnPS.GetComponent<AudioSource>().isPlaying)
+                if(!respawnPS.GetComponent<AudioSource>().isPlaying && !AudioManagerScript.instance.mute)
                 {
                     respawnPS.GetComponent<AudioSource>().Play();
                 }

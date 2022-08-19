@@ -31,6 +31,7 @@ public class Level3LeverScript : MonoBehaviour
     {
         if (PlayerMovement.instance.interact && playerEntered && !leverAnim.GetBool("push"))
         {
+            AudioManagerScript.instance.Play("click");
             StartCoroutine(playCutscene());
         }
     }

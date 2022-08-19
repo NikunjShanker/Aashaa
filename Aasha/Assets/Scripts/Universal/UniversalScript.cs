@@ -49,6 +49,7 @@ public class UniversalScript : MonoBehaviour
         if (Input.GetKey(KeyCode.Alpha7)) SceneManager.LoadSceneAsync(7); savedPos = new Vector3(0, -1.8f, 0);
         if (Input.GetKey(KeyCode.Alpha8)) SceneManager.LoadSceneAsync(8); savedPos = new Vector3(0, -1.8f, 0);
         if (Input.GetKey(KeyCode.Alpha9)) SceneManager.LoadSceneAsync(9); savedPos = new Vector3(0, -1.8f, 0);
+        if (Input.GetKey(KeyCode.Alpha0)) SceneManager.LoadSceneAsync(10); savedPos = new Vector3(0, -1.8f, 0);
     }
 
     public void ResetData()

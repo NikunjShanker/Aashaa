@@ -12,6 +12,8 @@ public class AudioManagerScript : MonoBehaviour
     private int index;
     private int cataloguedIndex;
 
+    public bool mute;
+
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -38,6 +40,20 @@ public class AudioManagerScript : MonoBehaviour
         index = SceneManager.GetActiveScene().buildIndex;
 
         if (cataloguedIndex != index) ChangeAmbience();
+
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            Mute();
+        }
+    }
+
+    public void Mute()
+    {
+        foreach (Sound s in sounds)
+        {
+            s.mute = !s.mute;
+            mute = s.mute;
+        }
     }
 
     public void Play(string name)
@@ -73,6 +89,17 @@ public class AudioManagerScript : MonoBehaviour
         }
     }
 
+    public bool isPlaying(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s != null)
+        {
+            if (s.source.isPlaying) return true;
+        }
+
+        return false;
+    }
+
     public void ChangeAmbience()
     {
         Stop("dungeon ambience");
@@ -83,14 +110,20 @@ public class AudioManagerScript : MonoBehaviour
         if (index == 1)
         {
             Play("dungeon ambience");
+            Stop("day sounds");
+            Stop("night sounds");
         }
         else if (3 <= index && index <= 5)
         {
             Play("dungeon ambience V2");
+            Stop("day sounds");
+            Stop("night sounds");
         }
         else if (6 <= index && index <= 9)
         {
             Play("dungeon ambience 2");
+            Stop("day sounds");
+            Stop("night sounds");
         }
     }
 }

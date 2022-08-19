@@ -37,6 +37,8 @@ public class CoronationSceneScript : MonoBehaviour
         bakwasSpeech = bakwasBubble.GetComponentInChildren<TextMeshProUGUI>();
         aashaaSpeech = aashaaBubble.GetComponentInChildren<TextMeshProUGUI>();
 
+        AudioManagerScript.instance.Play("day sounds");
+
         controls = new PlayerControls();
         controls.Gameplay.Interact.performed += ctx => nextEvent();
     }
@@ -75,6 +77,37 @@ public class CoronationSceneScript : MonoBehaviour
             mesh.vertices = vertices;
             textMesh.canvasRenderer.SetMesh(mesh);
         }
+
+        if(!dialogueFinished)
+        {
+            if(dialogue[dialogueIndex].name == "Raja" && rajaSpeech.text != "")
+            {
+                int randomNum = Random.Range(1, 4);
+                if (!AudioManagerScript.instance.isPlaying("deep male blah 1") && !AudioManagerScript.instance.isPlaying("deep male blah 2") && !AudioManagerScript.instance.isPlaying("deep male blah 3"))
+                {
+                    AudioManagerScript.instance.sounds[23 + randomNum].pitch = Random.Range(0.9f, 1.1f);
+                    AudioManagerScript.instance.Play("deep male blah " + randomNum);
+                }
+            }
+            else if (dialogue[dialogueIndex].name == "Aashaa" && aashaaSpeech.text != "")
+            {
+                int randomNum = Random.Range(1, 4);
+                if (!AudioManagerScript.instance.isPlaying("female blah 1") && !AudioManagerScript.instance.isPlaying("female blah 2") && !AudioManagerScript.instance.isPlaying("female blah 3"))
+                {
+                    AudioManagerScript.instance.sounds[26 + randomNum].pitch = Random.Range(0.9f, 1.1f);
+                    AudioManagerScript.instance.Play("female blah " + randomNum);
+                }
+            }
+            else if (dialogue[dialogueIndex].name == "Bakwas" && bakwasSpeech.text != "")
+            {
+                int randomNum = Random.Range(1, 4);
+                if (!AudioManagerScript.instance.isPlaying("male blah 1") && !AudioManagerScript.instance.isPlaying("male blah 2") && !AudioManagerScript.instance.isPlaying("male blah 3"))
+                {
+                    AudioManagerScript.instance.sounds[20 + randomNum].pitch = Random.Range(0.9f, 1.1f);
+                    AudioManagerScript.instance.Play("male blah " + randomNum);
+                }
+            }
+        }
     }
 
     public void aashaaEntered()
@@ -96,6 +129,7 @@ public class CoronationSceneScript : MonoBehaviour
 
     public void changeScene()
     {
+        AudioManagerScript.instance.Stop("day sounds");
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

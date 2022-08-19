@@ -23,7 +23,7 @@ public class BuzzsawSignScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            signText.text = "These buzzsaws will hurt you as well. In some cases, you may encounter ones that are moving so stay sharp!";
+            signText.text = "Buzzsaws should be more than self explanatory.";
 
             offDir.Stop();
             onDir.Play();

@@ -47,6 +47,8 @@ public class Level6LeverScript : MonoBehaviour
             {
                 StartCoroutine(playCutscene4());
             }
+
+            AudioManagerScript.instance.Play("click");
         }
     }
 
