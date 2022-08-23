@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: nikllamadev
   productName: Aashaa
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: fa2542c59572a6c41aa3c80b3dd5309b, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -126,9 +126,8 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.9
-  preloadedAssets:
-  - {fileID: 0}
+  bundleVersion: 0.10
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
