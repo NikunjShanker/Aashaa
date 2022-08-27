@@ -32,7 +32,7 @@ public class AudioManagerScript : MonoBehaviour
             s.source.loop = s.loop;
         }
 
-        cataloguedIndex = 0;
+        cataloguedIndex = -1;
     }
 
     private void Update()
@@ -107,7 +107,7 @@ public class AudioManagerScript : MonoBehaviour
         Stop("dungeon ambience V2");
         Stop("solemn ambience");
 
-        if (index == 1)
+        if (index == 0 || index == 1)
         {
             Play("dungeon ambience");
             Stop("day sounds");
