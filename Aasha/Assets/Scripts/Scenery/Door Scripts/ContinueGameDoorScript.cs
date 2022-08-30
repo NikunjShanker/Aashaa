@@ -48,12 +48,11 @@ public class ContinueGameDoorScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            if(inDoor) AudioManagerScript.instance.Play("door close"); AudioManagerScript.instance.End("door open");
+
             doorAnim.SetBool("open", false);
             spaceBarObject.position = new Vector3(50, 50, 0);
             inDoor = false;
-
-            AudioManagerScript.instance.End("door open");
-            AudioManagerScript.instance.Play("door close");
         }
     }
 }

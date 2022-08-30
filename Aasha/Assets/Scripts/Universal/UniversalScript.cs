@@ -42,32 +42,6 @@ public class UniversalScript : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        // Remove the following when game is finished and ready to be released
-        if (Input.GetKeyDown(KeyCode.Alpha3)) SceneManager.LoadSceneAsync(3); savedPos = new Vector3(0, -1.8f, 0);
-        if (Input.GetKeyDown(KeyCode.Alpha4)) SceneManager.LoadSceneAsync(4); savedPos = new Vector3(0, -1.8f, 0);
-        if (Input.GetKeyDown(KeyCode.Alpha5)) SceneManager.LoadSceneAsync(5); savedPos = new Vector3(0, -1.8f, 0);
-        if (Input.GetKeyDown(KeyCode.Alpha6)) SceneManager.LoadSceneAsync(6); savedPos = new Vector3(0, -1.8f, 0);
-        if (Input.GetKeyDown(KeyCode.Alpha7)) SceneManager.LoadSceneAsync(7); savedPos = new Vector3(0, -1.8f, 0);
-        if (Input.GetKeyDown(KeyCode.Alpha8)) SceneManager.LoadSceneAsync(8); savedPos = new Vector3(0, -1.8f, 0);
-        if (Input.GetKeyDown(KeyCode.Alpha9)) SceneManager.LoadSceneAsync(9); savedPos = new Vector3(0, -1.8f, 0);
-        if (Input.GetKeyDown(KeyCode.Alpha0)) SceneManager.LoadSceneAsync(10); savedPos = new Vector3(0, -1.8f, 0);
-
-        if (Input.GetKeyDown(KeyCode.H))
-        {
-            hudDisable = !hudDisable;
-        }
-
-        if (hudDisable)
-        {
-            if (GameObject.Find("Heart Canvas") != null) GameObject.Find("Heart Canvas").SetActive(false);
-            if (GameObject.Find("Buttons Canvas") != null) GameObject.Find("Buttons Canvas").SetActive(false);
-            if (GameObject.Find("Button Canvas") != null) GameObject.Find("Button Canvas").SetActive(false);
-            if (GameObject.Find("Text Canvas") != null) GameObject.Find("Text Canvas").SetActive(false);
-        }
-    }
-
     public void ResetData()
     {
         savedPos = new Vector3(0, -1.8f, 0);
