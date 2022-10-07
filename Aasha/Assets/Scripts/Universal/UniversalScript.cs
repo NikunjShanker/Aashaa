@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Playables;
+using TMPro;
 using System.IO;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +13,12 @@ public class UniversalScript : MonoBehaviour
     public int savedSceneIndex;
     public int maxHealth;
     public int deathCounter;
+
+    public float time;
+    public string timePlaying;
+
+    public bool countTime;
+
     public bool[] heartGained = new bool[9];
     public bool canDoubleJump;
     public bool canWallJump;
@@ -20,10 +26,7 @@ public class UniversalScript : MonoBehaviour
     public bool jumpBoost;
     public bool speedBoost;
 
-    // Remove when game is finished and ready to be released
-    private bool hudDisable;
-
-    private PlayableDirector fadeIn;
+    public TextMeshProUGUI timerText;
 
     void Awake()
     {
@@ -47,6 +50,8 @@ public class UniversalScript : MonoBehaviour
         savedPos = new Vector3(0, -1.8f, 0);
         savedSceneIndex = 1;
         deathCounter = 0;
+        countTime = false;
+        time = 0f;
         maxHealth = 3;
         canDoubleJump = canWallJump = canDash = jumpBoost = speedBoost = false;
 
@@ -83,5 +88,32 @@ public class UniversalScript : MonoBehaviour
         canDash = data.canDash;
         jumpBoost = data.jumpBoost;
         speedBoost = data.speedBoost;
+    }
+
+    public void startTimer()
+    {
+        countTime = true;
+    }
+
+    public void pauseTimer()
+    {
+        countTime = false;
+    }
+
+    void Update()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 3)
+            startTimer();
+
+        if(countTime)
+        {
+            time += Time.deltaTime;
+        }
+
+        if(GameObject.Find("/Text Canvas/Timer Text") != null)
+        {
+            timerText = GameObject.Find("/Text Canvas/Timer Text").GetComponent<TextMeshProUGUI>();
+            timerText.text = Mathf.FloorToInt(time / 60) + ":" + Mathf.FloorToInt(time % 60) + ":" + Mathf.FloorToInt(time * 120) % 100;
+        }
     }
 }
