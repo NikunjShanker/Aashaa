@@ -105,9 +105,11 @@ public class EndingSceneScript : MonoBehaviour
     {
         TextMeshProUGUI heartsText = GameObject.Find("/Stats Canvas/Hearts Stats").GetComponentInChildren<TextMeshProUGUI>();
         TextMeshProUGUI deathsText = GameObject.Find("/Stats Canvas/Deaths Stats").GetComponentInChildren<TextMeshProUGUI>();
+        TextMeshProUGUI timeText = GameObject.Find("/Stats Canvas/Time Stats").GetComponentInChildren<TextMeshProUGUI>();
 
         heartsText.text = "You Found " + (UniversalScript.instance.maxHealth - 3) + " out of 7 Extra Hearts";
         deathsText.text = "You Died " + UniversalScript.instance.deathCounter + " times";
+        timeText.text = "Final Time: " + UniversalScript.instance.minutes + ":" + UniversalScript.instance.seconds + ":" + UniversalScript.instance.milliseconds;
 
         PlayableDirector statsReveal = GameObject.Find("/Timeline/Stats Reveal").GetComponentInChildren<PlayableDirector>();
         statsReveal.Play();

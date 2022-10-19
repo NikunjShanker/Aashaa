@@ -22,6 +22,8 @@ public class EndLevelDoorScript : MonoBehaviour
     {
         if (inDoor && PlayerMovement.instance.interact && !activateOnce)
         {
+            if (SceneManager.GetActiveScene().buildIndex == 9) UniversalScript.instance.pauseTimer();
+
             activateOnce = true;
             UniversalScript.instance.savedPos = new Vector3(0, -1.8f, 0);
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);

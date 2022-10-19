@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameData
 {
     public float[] savedPos;
+    public float time;
     public int savedSceneIndex;
     public int maxHealth;
     public int deathCounter;
@@ -24,6 +25,7 @@ public class GameData
         savedPos[2] = script.savedPos.z;
 
         savedSceneIndex = script.savedSceneIndex;
+        time = script.time;
         maxHealth = script.maxHealth;
         deathCounter = script.deathCounter;
         heartGained = new bool[9];

@@ -16,6 +16,9 @@ public class UniversalScript : MonoBehaviour
 
     public float time;
     public string timePlaying;
+    public string minutes;
+    public string seconds;
+    public string milliseconds;
 
     public bool countTime;
 
@@ -79,6 +82,7 @@ public class UniversalScript : MonoBehaviour
         GameData data = SaveSystem.LoadPlayer();
 
         savedPos = new Vector3(data.savedPos[0], data.savedPos[1], data.savedPos[2]);
+        time = data.time;
         savedSceneIndex = data.savedSceneIndex;
         maxHealth = data.maxHealth;
         deathCounter = data.deathCounter;
@@ -102,18 +106,49 @@ public class UniversalScript : MonoBehaviour
 
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 3)
-            startTimer();
+        if (SceneManager.GetActiveScene().buildIndex >= 3 && SceneManager.GetActiveScene().buildIndex <= 9)
+        {
+            if (!countTime)
+            {
+                startTimer();
+            }
+        }
+        else
+        {
+            if (countTime)
+            {
+                pauseTimer();
+            }
+        }
 
         if(countTime)
         {
             time += Time.deltaTime;
+
+            if(GameObject.Find("/Text Canvas/Timer Text") != null)
+            {
+                timerText = GameObject.Find("/Text Canvas/Timer Text").GetComponent<TextMeshProUGUI>();
+
+                minutes = Mathf.FloorToInt(time / 60).ToString();
+                seconds = Mathf.FloorToInt(time % 60).ToString();
+                milliseconds = (Mathf.FloorToInt(time * 120) % 100).ToString();
+
+                minutes = twoSigFigs(minutes);
+                seconds = twoSigFigs(seconds);
+                milliseconds = twoSigFigs(milliseconds);
+
+                timerText.text = minutes + ":" + seconds + ":" + milliseconds;
+            }
+        }
+    }
+
+    private string twoSigFigs(string amountOfTime)
+    {
+        if(amountOfTime.Length == 1)
+        {
+            amountOfTime = "0" + amountOfTime;
         }
 
-        if(GameObject.Find("/Text Canvas/Timer Text") != null)
-        {
-            timerText = GameObject.Find("/Text Canvas/Timer Text").GetComponent<TextMeshProUGUI>();
-            timerText.text = Mathf.FloorToInt(time / 60) + ":" + Mathf.FloorToInt(time % 60) + ":" + Mathf.FloorToInt(time * 120) % 100;
-        }
+        return amountOfTime;
     }
 }
