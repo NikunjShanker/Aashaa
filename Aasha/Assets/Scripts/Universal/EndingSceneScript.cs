@@ -111,6 +111,8 @@ public class EndingSceneScript : MonoBehaviour
         deathsText.text = "You Died " + UniversalScript.instance.deathCounter + " times";
         timeText.text = "Final Time: " + UniversalScript.instance.minutes + ":" + UniversalScript.instance.seconds + ":" + UniversalScript.instance.milliseconds;
 
+        UniversalScript.instance.compareTimes();
+
         PlayableDirector statsReveal = GameObject.Find("/Timeline/Stats Reveal").GetComponentInChildren<PlayableDirector>();
         statsReveal.Play();
     }

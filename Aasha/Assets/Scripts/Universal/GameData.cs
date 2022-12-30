@@ -7,6 +7,10 @@ public class GameData
 {
     public float[] savedPos;
     public float time;
+    public int bestTime;
+    public string bestMinutes;
+    public string bestSeconds;
+    public string bestMilliseconds;
     public int savedSceneIndex;
     public int maxHealth;
     public int deathCounter;
@@ -26,6 +30,10 @@ public class GameData
 
         savedSceneIndex = script.savedSceneIndex;
         time = script.time;
+        bestTime = script.bestTime;
+        bestMinutes = script.bestMinutes;
+        bestSeconds = script.bestSeconds;
+        bestMilliseconds = script.bestMilliseconds;
         maxHealth = script.maxHealth;
         deathCounter = script.deathCounter;
         heartGained = new bool[9];

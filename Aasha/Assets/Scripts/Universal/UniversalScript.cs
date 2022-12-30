@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -14,11 +15,17 @@ public class UniversalScript : MonoBehaviour
     public int maxHealth;
     public int deathCounter;
 
+    public int bestTime;
+
     public float time;
     public string timePlaying;
     public string minutes;
     public string seconds;
     public string milliseconds;
+
+    public string bestMinutes;
+    public string bestSeconds;
+    public string bestMilliseconds;
 
     public bool countTime;
 
@@ -37,6 +44,11 @@ public class UniversalScript : MonoBehaviour
         else Destroy(gameObject);
 
         DontDestroyOnLoad(this.gameObject);
+
+        bestTime = 0;
+        bestMinutes = "";
+        bestSeconds = "";
+        bestMilliseconds = "";
 
         if (File.Exists(Application.persistentDataPath + "/game.aashafile"))
         {
@@ -83,6 +95,10 @@ public class UniversalScript : MonoBehaviour
 
         savedPos = new Vector3(data.savedPos[0], data.savedPos[1], data.savedPos[2]);
         time = data.time;
+        bestTime = data.bestTime;
+        bestMinutes = data.bestMinutes;
+        bestSeconds = data.bestSeconds;
+        bestMilliseconds = data.bestMilliseconds;
         savedSceneIndex = data.savedSceneIndex;
         maxHealth = data.maxHealth;
         deathCounter = data.deathCounter;
@@ -104,8 +120,38 @@ public class UniversalScript : MonoBehaviour
         countTime = false;
     }
 
+    public void compareTimes()
+    {
+        int currentTime = int.Parse(milliseconds) + int.Parse(seconds) * 1000 + int.Parse(minutes) * 60000;
+
+        if (currentTime < bestTime || bestTime == 0)
+        {
+            bestTime = currentTime;
+            bestMinutes = minutes;
+            bestSeconds = seconds;
+            bestMilliseconds = milliseconds;
+        }
+
+        SaveData();
+    }
+
+    public string getBestTime()
+    {
+        return string.Join(",", bestMinutes, bestSeconds, bestMilliseconds);
+    }
+
     void Update()
     {
+        /*if(Input.GetKeyDown(KeyCode.Alpha0))
+        {
+            bestTime = 0;
+            SaveData();
+        }
+        if(Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            SceneManager.LoadSceneAsync(10);
+        }*/
+
         if (SceneManager.GetActiveScene().buildIndex >= 3 && SceneManager.GetActiveScene().buildIndex <= 9)
         {
             if (!countTime)

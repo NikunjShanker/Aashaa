@@ -32,7 +32,7 @@ public class ContinueGameDoorScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            if (UniversalScript.instance.savedSceneIndex != 1)
+            if (UniversalScript.instance.savedSceneIndex != 1 && UniversalScript.instance.savedSceneIndex != 10)
             {
                 doorAnim.SetBool("open", true);
                 spaceBarObject.position = new Vector3(this.transform.position.x, this.transform.position.y - 1.5f, 0);
