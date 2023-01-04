@@ -17,6 +17,7 @@ public class EndingSceneScript : MonoBehaviour
     private PlayerControls controls;
 
     private GameObject aashaaBubble;
+    private GameObject spaceBar;
     private TextMeshProUGUI aashaaSpeech;
 
     private bool exitScene;
@@ -30,6 +31,8 @@ public class EndingSceneScript : MonoBehaviour
         aashaaBubble = GameObject.Find("Aashaa Bubble");
         aashaaSpeech = aashaaBubble.GetComponentInChildren<TextMeshProUGUI>();
 
+        spaceBar = GameObject.Find("Space Bar");
+
         AudioManagerScript.instance.Play("night sounds");
 
         controls = new PlayerControls();
@@ -39,6 +42,7 @@ public class EndingSceneScript : MonoBehaviour
     private void Start()
     {
         aashaaBubble.SetActive(false);
+        spaceBar.SetActive(false);
         textMesh = null;
 
         dialogueIndex = 0;
@@ -81,7 +85,12 @@ public class EndingSceneScript : MonoBehaviour
                     AudioManagerScript.instance.sounds[26 + randomNum].pitch = Random.Range(0.9f, 1.1f);
                     AudioManagerScript.instance.Play("female blah " + randomNum);
                 }
+                spaceBar.SetActive(false);
             }
+        }
+        else if (aashaaSpeech.text != "")
+        {
+            spaceBar.SetActive(true);
         }
     }
 
@@ -115,6 +124,9 @@ public class EndingSceneScript : MonoBehaviour
 
         PlayableDirector statsReveal = GameObject.Find("/Timeline/Stats Reveal").GetComponentInChildren<PlayableDirector>();
         statsReveal.Play();
+
+        aashaaSpeech.text = " ";
+        spaceBar.SetActive(true);
     }
 
     public void readyToExit()
@@ -139,6 +151,7 @@ public class EndingSceneScript : MonoBehaviour
                 GameObject.Find("Credits Roll").GetComponent<PlayableDirector>().Play();
                 aashaaBubble.SetActive(false);
                 aashaaSpeech.text = "";
+                spaceBar.SetActive(false);
                 textMesh = null;
             }
         }
