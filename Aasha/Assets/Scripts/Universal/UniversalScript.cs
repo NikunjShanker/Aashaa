@@ -38,6 +38,9 @@ public class UniversalScript : MonoBehaviour
 
     public TextMeshProUGUI timerText;
 
+    private float interpolationTime;
+    private float mouseTime;
+
     void Awake()
     {
         if (instance == null) instance = this;
@@ -49,6 +52,9 @@ public class UniversalScript : MonoBehaviour
         bestMinutes = "";
         bestSeconds = "";
         bestMilliseconds = "";
+
+        interpolationTime = 4.0f;
+        mouseTime = 0.0f;
 
         if (File.Exists(Application.persistentDataPath + "/game.aashafile"))
         {
@@ -184,6 +190,23 @@ public class UniversalScript : MonoBehaviour
                 milliseconds = twoSigFigs(milliseconds);
 
                 timerText.text = minutes + ":" + seconds + ":" + milliseconds;
+            }
+        }
+
+        if (Input.GetAxis("Mouse X") != 0 || Input.GetAxis("Mouse Y") != 0)
+        {
+            Cursor.visible = true;
+        }
+
+        mouseTime += Time.deltaTime;
+
+        if (mouseTime >= interpolationTime)
+        {
+            mouseTime = mouseTime - interpolationTime;
+
+            if (Input.GetAxis("Mouse X") == 0 && Input.GetAxis("Mouse Y") == 0)
+            {
+                Cursor.visible = false;
             }
         }
     }
