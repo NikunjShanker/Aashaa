@@ -23,7 +23,7 @@ public class KillPlayerSignScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            signText.text = "If you ever feel stuck or want to respawn,\npress -R-\nto die. This will respawn you at the last torch you've been to.";
+            signText.text = "If you ever feel stuck or want to respawn,\npress -R- on keyboard\npress -Y- on controller\nto die. This will respawn you at the last torch you've been to.";
 
             offDir.Stop();
             onDir.Play();

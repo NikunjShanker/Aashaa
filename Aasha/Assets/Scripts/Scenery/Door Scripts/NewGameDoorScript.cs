@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class NewGameDoorScript : MonoBehaviour
 {
     private Transform spaceBarObject;
+    private Transform southObject;
     private Animator doorAnim;
     private bool inDoor;
 
@@ -15,6 +16,7 @@ public class NewGameDoorScript : MonoBehaviour
     {
         doorAnim = GetComponent<Animator>();
         spaceBarObject = GameObject.Find("Space Bar").GetComponent<Transform>();
+        southObject = GameObject.Find("East").GetComponent<Transform>();
         inDoor = false;
         activateOnce = false;
     }
@@ -34,7 +36,8 @@ public class NewGameDoorScript : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             doorAnim.SetBool("open", true);
-            spaceBarObject.position = new Vector3(this.transform.position.x, this.transform.position.y - 1.5f, 0);
+            spaceBarObject.position = new Vector3(this.transform.position.x - 0.75f, this.transform.position.y - 1.75f, 0);
+            southObject.position = new Vector3(this.transform.position.x + 1f, this.transform.position.y - 1.75f, 0);
             inDoor = true;
 
             AudioManagerScript.instance.End("door close");
@@ -48,6 +51,7 @@ public class NewGameDoorScript : MonoBehaviour
         {
             doorAnim.SetBool("open", false);
             spaceBarObject.position = new Vector3(50, 50, 0);
+            southObject.position = new Vector3(50, 50, 0);
             inDoor = false;
 
             AudioManagerScript.instance.End("door open");

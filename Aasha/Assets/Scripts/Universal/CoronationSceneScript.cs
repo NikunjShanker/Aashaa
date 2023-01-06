@@ -18,7 +18,9 @@ public class CoronationSceneScript : MonoBehaviour
     private GameObject rajaBubble;
     private GameObject aashaaBubble;
     private GameObject bakwasBubble;
+
     private GameObject spaceBar;
+    private GameObject eastObject;
 
     private TextMeshProUGUI rajaSpeech;
     private TextMeshProUGUI aashaaSpeech;
@@ -35,6 +37,7 @@ public class CoronationSceneScript : MonoBehaviour
         bakwasBubble = GameObject.Find("Bakwas Bubble");
 
         spaceBar = GameObject.Find("Space Bar");
+        eastObject = GameObject.Find("East");
 
         rajaSpeech = rajaBubble.GetComponentInChildren<TextMeshProUGUI>();
         bakwasSpeech = bakwasBubble.GetComponentInChildren<TextMeshProUGUI>();
@@ -112,10 +115,12 @@ public class CoronationSceneScript : MonoBehaviour
             }
 
             spaceBar.SetActive(false);
+            eastObject.SetActive(false);
         }
         else
         {
             spaceBar.SetActive(true);
+            eastObject.SetActive(true);
         }
     }
 
@@ -171,6 +176,8 @@ public class CoronationSceneScript : MonoBehaviour
                 aashaaSpeech.text = "";
                 bakwasSpeech.text = "";
 
+                spaceBar.SetActive(false);
+                eastObject.SetActive(false);
             }
             else
             {
@@ -184,6 +191,9 @@ public class CoronationSceneScript : MonoBehaviour
                 rajaSpeech.text = "";
                 aashaaSpeech.text = "";
                 bakwasSpeech.text = "";
+
+                spaceBar.SetActive(false);
+                eastObject.SetActive(false);
             }
         }
     }

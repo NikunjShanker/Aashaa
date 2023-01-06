@@ -18,6 +18,7 @@ public class EndingSceneScript : MonoBehaviour
 
     private GameObject aashaaBubble;
     private GameObject spaceBar;
+    private GameObject eastObject;
     private TextMeshProUGUI aashaaSpeech;
 
     private bool exitScene;
@@ -32,6 +33,7 @@ public class EndingSceneScript : MonoBehaviour
         aashaaSpeech = aashaaBubble.GetComponentInChildren<TextMeshProUGUI>();
 
         spaceBar = GameObject.Find("Space Bar");
+        eastObject = GameObject.Find("East");
 
         AudioManagerScript.instance.Play("night sounds");
 
@@ -43,6 +45,7 @@ public class EndingSceneScript : MonoBehaviour
     {
         aashaaBubble.SetActive(false);
         spaceBar.SetActive(false);
+        eastObject.SetActive(false);
         textMesh = null;
 
         dialogueIndex = 0;
@@ -86,11 +89,13 @@ public class EndingSceneScript : MonoBehaviour
                     AudioManagerScript.instance.Play("female blah " + randomNum);
                 }
                 spaceBar.SetActive(false);
+                eastObject.SetActive(false);
             }
         }
         else if (aashaaSpeech.text != "")
         {
             spaceBar.SetActive(true);
+            eastObject.SetActive(true);
         }
     }
 
@@ -127,6 +132,7 @@ public class EndingSceneScript : MonoBehaviour
 
         aashaaSpeech.text = " ";
         spaceBar.SetActive(true);
+        eastObject.SetActive(true);
     }
 
     public void readyToExit()
@@ -152,6 +158,7 @@ public class EndingSceneScript : MonoBehaviour
                 aashaaBubble.SetActive(false);
                 aashaaSpeech.text = "";
                 spaceBar.SetActive(false);
+                eastObject.SetActive(false);
                 textMesh = null;
             }
         }

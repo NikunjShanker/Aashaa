@@ -47,7 +47,7 @@ public class CollectableScript : MonoBehaviour
             {
                 controller.canDash = true;
                 UpgradeCanvasManager.instance.titleText.text = "Dash";
-                UpgradeCanvasManager.instance.infoText.text = "Press -K- or Right Click to Dash\nDashing is possible on the ground and midair";
+                UpgradeCanvasManager.instance.infoText.text = "Press -K- or Right Click to Dash\nPress -LT- or -RT- to Dash\nDashing is possible on the ground and midair";
                 UpgradeCanvasManager.instance.upgradeIcon.sprite = UpgradeCanvasManager.instance.dash;
             }
             else if (this.gameObject.name == "Wall Jump")
