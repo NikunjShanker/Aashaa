@@ -969,6 +969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2056445272}
   - component: {fileID: 2056445271}
+  - component: {fileID: 2056445273}
   m_Layer: 0
   m_Name: Audio Manager
   m_TagString: Untagged
@@ -1244,6 +1245,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2056445273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056445270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 7c6e28f7c899e5445ae3a54db6f3bf14,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b23e61c7-65b8-42f6-9bef-238bd5a235b4
+    m_ActionName: Gameplay/Jump[/XInputControllerWindows/buttonSouth,/Keyboard/w,/Keyboard/upArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 767c3bf2-8be8-47af-983b-a3bde1a0d799
+    m_ActionName: Gameplay/Dash[/XInputControllerWindows/leftTrigger,/XInputControllerWindows/rightTrigger,/XInputControllerWindows/leftShoulder,/XInputControllerWindows/rightShoulder,/Keyboard/k,/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3aef2e58-aba4-422c-97de-1db7ed1c60b8
+    m_ActionName: Gameplay/Interact[/XInputControllerWindows/buttonEast,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 24dec37e-7f31-48fd-96dc-bf0d5d1fe4bb
+    m_ActionName: Gameplay/Restart[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9556b9b7-fc75-4016-ad56-305f88aca5c3
+    m_ActionName: Gameplay/Escape[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2056445271}
+        m_MethodName: Mute
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8a3ea1d5-0287-483d-aa95-34607bdf9790
+    m_ActionName: Gameplay/Mute[/Keyboard/m,/XInputControllerWindows/leftShoulder,/XInputControllerWindows/rightShoulder]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Gameplay
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!4 &4559974950265737040
 Transform:
   m_ObjectHideFlags: 0

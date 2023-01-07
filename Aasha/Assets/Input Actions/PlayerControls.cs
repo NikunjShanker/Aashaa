@@ -57,6 +57,14 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Mute"",
+                    ""type"": ""Button"",
+                    ""id"": ""8a3ea1d5-0287-483d-aa95-34607bdf9790"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -108,28 +116,6 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""ae3b6ab8-11a4-4f82-94fa-002572899e69"",
                     ""path"": ""<Gamepad>/rightTrigger"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Dash"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""568956e4-65e0-41bb-a24b-9e38393bab69"",
-                    ""path"": ""<Gamepad>/leftShoulder"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Dash"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""f86ec03b-511f-4e02-975c-932f1492404f"",
-                    ""path"": ""<Gamepad>/rightShoulder"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -257,6 +243,77 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""action"": ""Escape"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6d783340-73e0-4634-8bed-0eaef5a92fdf"",
+                    ""path"": ""<Keyboard>/m"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Mute"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""71ccd069-c12f-4f9a-8fa6-ed3a3c3daeb0"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Mute"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""60628f77-d36d-408f-ba06-7149872e5f89"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Mute"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Cutscene"",
+            ""id"": ""91e19e1d-a28d-4981-8a81-632e9fb95455"",
+            ""actions"": [
+                {
+                    ""name"": ""Skip"",
+                    ""type"": ""Button"",
+                    ""id"": ""7ffcf3f5-cfa7-46ce-b23d-c86b3c16547b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""26f64260-28c3-4ff9-8aed-c3a23a19af5c"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Skip"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f3d5d837-1def-4f33-a33d-cb7e822585d6"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Skip"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -270,6 +327,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         m_Gameplay_Dash = m_Gameplay.FindAction("Dash", throwIfNotFound: true);
         m_Gameplay_Restart = m_Gameplay.FindAction("Restart", throwIfNotFound: true);
         m_Gameplay_Escape = m_Gameplay.FindAction("Escape", throwIfNotFound: true);
+        m_Gameplay_Mute = m_Gameplay.FindAction("Mute", throwIfNotFound: true);
+        // Cutscene
+        m_Cutscene = asset.FindActionMap("Cutscene", throwIfNotFound: true);
+        m_Cutscene_Skip = m_Cutscene.FindAction("Skip", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -324,6 +385,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private readonly InputAction m_Gameplay_Dash;
     private readonly InputAction m_Gameplay_Restart;
     private readonly InputAction m_Gameplay_Escape;
+    private readonly InputAction m_Gameplay_Mute;
     public struct GameplayActions
     {
         private @PlayerControls m_Wrapper;
@@ -333,6 +395,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         public InputAction @Dash => m_Wrapper.m_Gameplay_Dash;
         public InputAction @Restart => m_Wrapper.m_Gameplay_Restart;
         public InputAction @Escape => m_Wrapper.m_Gameplay_Escape;
+        public InputAction @Mute => m_Wrapper.m_Gameplay_Mute;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -357,6 +420,9 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Escape.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnEscape;
                 @Escape.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnEscape;
                 @Escape.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnEscape;
+                @Mute.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMute;
+                @Mute.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMute;
+                @Mute.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnMute;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
@@ -376,10 +442,46 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                 @Escape.started += instance.OnEscape;
                 @Escape.performed += instance.OnEscape;
                 @Escape.canceled += instance.OnEscape;
+                @Mute.started += instance.OnMute;
+                @Mute.performed += instance.OnMute;
+                @Mute.canceled += instance.OnMute;
             }
         }
     }
     public GameplayActions @Gameplay => new GameplayActions(this);
+
+    // Cutscene
+    private readonly InputActionMap m_Cutscene;
+    private ICutsceneActions m_CutsceneActionsCallbackInterface;
+    private readonly InputAction m_Cutscene_Skip;
+    public struct CutsceneActions
+    {
+        private @PlayerControls m_Wrapper;
+        public CutsceneActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Skip => m_Wrapper.m_Cutscene_Skip;
+        public InputActionMap Get() { return m_Wrapper.m_Cutscene; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(CutsceneActions set) { return set.Get(); }
+        public void SetCallbacks(ICutsceneActions instance)
+        {
+            if (m_Wrapper.m_CutsceneActionsCallbackInterface != null)
+            {
+                @Skip.started -= m_Wrapper.m_CutsceneActionsCallbackInterface.OnSkip;
+                @Skip.performed -= m_Wrapper.m_CutsceneActionsCallbackInterface.OnSkip;
+                @Skip.canceled -= m_Wrapper.m_CutsceneActionsCallbackInterface.OnSkip;
+            }
+            m_Wrapper.m_CutsceneActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Skip.started += instance.OnSkip;
+                @Skip.performed += instance.OnSkip;
+                @Skip.canceled += instance.OnSkip;
+            }
+        }
+    }
+    public CutsceneActions @Cutscene => new CutsceneActions(this);
     public interface IGameplayActions
     {
         void OnJump(InputAction.CallbackContext context);
@@ -387,5 +489,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         void OnDash(InputAction.CallbackContext context);
         void OnRestart(InputAction.CallbackContext context);
         void OnEscape(InputAction.CallbackContext context);
+        void OnMute(InputAction.CallbackContext context);
+    }
+    public interface ICutsceneActions
+    {
+        void OnSkip(InputAction.CallbackContext context);
     }
 }

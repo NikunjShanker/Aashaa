@@ -148,7 +148,7 @@ public class UniversalScript : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha0))
+        /*if(Input.GetKeyDown(KeyCode.Alpha0))
         {
             bestTime = 0;
             SaveData();
@@ -156,7 +156,7 @@ public class UniversalScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha9))
         {
             SceneManager.LoadSceneAsync(10);
-        }
+        }*/
 
         if (SceneManager.GetActiveScene().buildIndex >= 3 && SceneManager.GetActiveScene().buildIndex <= 9)
         {

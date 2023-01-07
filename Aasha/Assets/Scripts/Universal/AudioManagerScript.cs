@@ -2,6 +2,7 @@
 using System;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class AudioManagerScript : MonoBehaviour
 {
@@ -40,8 +41,11 @@ public class AudioManagerScript : MonoBehaviour
         index = SceneManager.GetActiveScene().buildIndex;
 
         if (cataloguedIndex != index) ChangeAmbience();
+    }
 
-        if(Input.GetKeyDown(KeyCode.M))
+    public void Mute(InputAction.CallbackContext context)
+    {
+        if (context.performed)
         {
             Mute();
         }
