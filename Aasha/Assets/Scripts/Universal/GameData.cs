@@ -13,6 +13,7 @@ public class GameData
     public string bestMilliseconds;
     public int savedSceneIndex;
     public int maxHealth;
+    public int currentHealth;
     public int deathCounter;
     public bool[] heartGained;
     public bool canDoubleJump;
@@ -35,6 +36,7 @@ public class GameData
         bestSeconds = script.bestSeconds;
         bestMilliseconds = script.bestMilliseconds;
         maxHealth = script.maxHealth;
+        currentHealth = script.currentHealth;
         deathCounter = script.deathCounter;
         heartGained = new bool[9];
         heartGained = script.heartGained;

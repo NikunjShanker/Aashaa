@@ -124,7 +124,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (context.performed && SceneManager.GetActiveScene().buildIndex != 1)
         {
-            UniversalScript.instance.savedPos = this.transform.position;
             UniversalScript.instance.SaveData();
             SceneManager.LoadSceneAsync(1);
         }

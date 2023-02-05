@@ -21,7 +21,8 @@ public class PlayerHealth : MonoBehaviour
         playerSprite.color = new Color(1, 1, 1, 1);
 
         maxHealth = UniversalScript.instance.maxHealth;
-        health = maxHealth;
+        health = UniversalScript.instance.currentHealth;
+
         dieOnce = false;
 
         if (SceneManager.GetActiveScene().name == "Main Menu") maxHealth = 0;

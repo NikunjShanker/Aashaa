@@ -13,6 +13,7 @@ public class UniversalScript : MonoBehaviour
     public Vector3 savedPos;
     public int savedSceneIndex;
     public int maxHealth;
+    public int currentHealth;
     public int deathCounter;
 
     public int bestTime;
@@ -74,6 +75,7 @@ public class UniversalScript : MonoBehaviour
         countTime = false;
         time = 0f;
         maxHealth = 3;
+        currentHealth = maxHealth;
         canDoubleJump = canWallJump = canDash = jumpBoost = speedBoost = false;
 
         for (int i = 0; i < heartGained.Length; i++)
@@ -86,6 +88,7 @@ public class UniversalScript : MonoBehaviour
     {
         savedSceneIndex = SceneManager.GetActiveScene().buildIndex;
         maxHealth = PlayerHealth.ph.maxHealth;
+        currentHealth = PlayerHealth.ph.health;
         canDoubleJump = CharacterController2D.instance.canDoubleJump;
         canWallJump = CharacterController2D.instance.canWallJump;
         canDash = CharacterController2D.instance.canDash;
@@ -107,6 +110,7 @@ public class UniversalScript : MonoBehaviour
         bestMilliseconds = data.bestMilliseconds;
         savedSceneIndex = data.savedSceneIndex;
         maxHealth = data.maxHealth;
+        currentHealth = data.currentHealth;
         deathCounter = data.deathCounter;
         heartGained = data.heartGained;
         canDoubleJump = data.canDoubleJump;
@@ -148,7 +152,8 @@ public class UniversalScript : MonoBehaviour
 
     void Update()
     {
-        /*if(Input.GetKeyDown(KeyCode.Alpha0))
+        // delete both if statements before release
+        if(Input.GetKeyDown(KeyCode.Alpha0))
         {
             bestTime = 0;
             SaveData();
@@ -156,7 +161,7 @@ public class UniversalScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha9))
         {
             SceneManager.LoadSceneAsync(10);
-        }*/
+        }
 
         if (SceneManager.GetActiveScene().buildIndex >= 3 && SceneManager.GetActiveScene().buildIndex <= 9)
         {

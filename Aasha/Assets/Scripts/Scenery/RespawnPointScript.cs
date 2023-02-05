@@ -28,7 +28,7 @@ public class RespawnPointScript : MonoBehaviour
             }
 
             PlayerMovement.instance.respawnPoint = this.transform.position;
-
+            UniversalScript.instance.savedPos = this.transform.position;
             UniversalScript.instance.SaveData();
         }
     }
