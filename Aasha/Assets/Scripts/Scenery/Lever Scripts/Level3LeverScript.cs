@@ -11,6 +11,7 @@ public class Level3LeverScript : MonoBehaviour
     private GameObject cutFocus;
     private CinemachineVirtualCamera vcam;
     private PlayableDirector leverDir;
+    private PlayableDirector leverPushedDir;
 
     private PlayerMovement pmController;
 
@@ -24,14 +25,21 @@ public class Level3LeverScript : MonoBehaviour
 
         vcam = GameObject.Find("CM vcam1").GetComponent<CinemachineVirtualCamera>();
         leverDir = GameObject.Find("Lever 1 Cutscene").GetComponent<PlayableDirector>();
+        leverPushedDir = GameObject.Find("Lever 1 Pushed").GetComponent<PlayableDirector>();
         cutFocus = GameObject.Find(this.name + " Focus");
+
+        if(UniversalScript.instance.cutsceneProgress > 1)
+        {
+            leverPushedDir.Play();
+        }
     }
 
     void Update()
     {
-        if (PlayerMovement.instance.interact && playerEntered && !leverAnim.GetBool("push"))
+        if (PlayerMovement.instance.interact && playerEntered && !leverAnim.GetBool("push") && UniversalScript.instance.cutsceneProgress <= 1)
         {
             AudioManagerScript.instance.Play("click");
+            UniversalScript.instance.cutsceneProgress = 2;
             StartCoroutine(playCutscene());
         }
     }

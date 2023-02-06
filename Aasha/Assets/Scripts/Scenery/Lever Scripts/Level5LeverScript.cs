@@ -11,6 +11,7 @@ public class Level5LeverScript : MonoBehaviour
     private GameObject cutFocus;
     private CinemachineVirtualCamera vcam;
     private PlayableDirector leverDir;
+    private PlayableDirector leverPushedDir;
 
     private PlayerMovement pmController;
 
@@ -25,22 +26,36 @@ public class Level5LeverScript : MonoBehaviour
         vcam = GameObject.Find("CM vcam1").GetComponent<CinemachineVirtualCamera>();
         leverDir = GameObject.Find(this.name + " Cutscene").GetComponent<PlayableDirector>();
         cutFocus = GameObject.Find(this.name + " Focus");
+
+        if(UniversalScript.instance.cutsceneProgress > 4)
+        {
+            leverPushedDir = GameObject.Find("Lever 1 Pushed").GetComponent<PlayableDirector>();
+            leverPushedDir.Play();
+        }
+
+        if (UniversalScript.instance.cutsceneProgress > 5)
+        {
+            leverPushedDir = GameObject.Find("Lever 2 Pushed").GetComponent<PlayableDirector>();
+            leverPushedDir.Play();
+        }
     }
 
     void Update()
     {
         if (PlayerMovement.instance.interact && playerEntered && !leverAnim.GetBool("push"))
         {
-            if (this.name.Substring(this.name.Length - 1) == "1")
+            if (this.name.Substring(this.name.Length - 1) == "1" && UniversalScript.instance.cutsceneProgress <= 4)
             {
                 StartCoroutine(playCutscene1());
+                UniversalScript.instance.cutsceneProgress = 5;
+                AudioManagerScript.instance.Play("click");
             }
-            else if (this.name.Substring(this.name.Length - 1) == "2")
+            else if (this.name.Substring(this.name.Length - 1) == "2" && UniversalScript.instance.cutsceneProgress <= 5)
             {
                 StartCoroutine(playCutscene2());
+                UniversalScript.instance.cutsceneProgress = 6;
+                AudioManagerScript.instance.Play("click");
             }
-
-            AudioManagerScript.instance.Play("click");
         }
     }
 

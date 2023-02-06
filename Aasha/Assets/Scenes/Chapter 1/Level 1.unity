@@ -9436,6 +9436,7 @@ GameObject:
   - component: {fileID: 1235383399}
   - component: {fileID: 1235383398}
   - component: {fileID: 1235383400}
+  - component: {fileID: 1235383401}
   m_Layer: 0
   m_Name: Beginning Cutscene
   m_TagString: Untagged
@@ -9486,7 +9487,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: ef92a44a7e995f946bd0c83458dbf735, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -9532,6 +9533,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1235383401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235383396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4ef4758e4532543b454c21c30fa76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1241180941
 GameObject:
   m_ObjectHideFlags: 0

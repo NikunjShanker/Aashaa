@@ -12,6 +12,8 @@ public class UniversalScript : MonoBehaviour
 
     public Vector3 savedPos;
     public int savedSceneIndex;
+    public int cutsceneProgress;
+
     public int maxHealth;
     public int currentHealth;
     public int deathCounter;
@@ -27,6 +29,8 @@ public class UniversalScript : MonoBehaviour
     public string bestMinutes;
     public string bestSeconds;
     public string bestMilliseconds;
+
+    public int level6CutsceneProgress;
 
     public bool countTime;
 
@@ -53,6 +57,7 @@ public class UniversalScript : MonoBehaviour
         bestMinutes = "";
         bestSeconds = "";
         bestMilliseconds = "";
+        level6CutsceneProgress = 0;
 
         interpolationTime = 4.0f;
         mouseTime = 0.0f;
@@ -70,7 +75,9 @@ public class UniversalScript : MonoBehaviour
     public void ResetData()
     {
         savedPos = new Vector3(0, -1.8f, 0);
+        level6CutsceneProgress = 0;
         savedSceneIndex = 1;
+        cutsceneProgress = 0;
         deathCounter = 0;
         countTime = false;
         time = 0f;
@@ -103,6 +110,7 @@ public class UniversalScript : MonoBehaviour
         GameData data = SaveSystem.LoadPlayer();
 
         savedPos = new Vector3(data.savedPos[0], data.savedPos[1], data.savedPos[2]);
+        cutsceneProgress = data.cutsceneProgress;
         time = data.time;
         bestTime = data.bestTime;
         bestMinutes = data.bestMinutes;

@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameData
 {
     public float[] savedPos;
+    public int cutsceneProgress;
     public float time;
     public int bestTime;
     public string bestMinutes;
@@ -30,6 +31,7 @@ public class GameData
         savedPos[2] = script.savedPos.z;
 
         savedSceneIndex = script.savedSceneIndex;
+        cutsceneProgress = script.cutsceneProgress;
         time = script.time;
         bestTime = script.bestTime;
         bestMinutes = script.bestMinutes;
